@@ -2224,23 +2224,23 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .primary-btn {
-  background-color: #88d200;
-  line-height: 42px;
-  padding-left: 40px;
-  padding-right: 40px;
-  border: none;
-  color: #fff;
-  display: inline-block;
-  font-weight: 500;
-  position: relative;
-  border: 1px solid transparent;
-  -webkit-transition: all 0.3s ease 0s;
-  -moz-transition: all 0.3s ease 0s;
-  -o-transition: all 0.3s ease 0s;
-  transition: all 0.3s ease 0s;
-  cursor: pointer;
-  text-transform: uppercase;
-  position: relative;
+    background-color: #FF9600;
+    line-height: 42px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border: none;
+    color: #fff;
+    display: inline-block;
+    font-weight: 500;
+    position: relative;
+    border: 1px solid transparent;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    text-transform: uppercase;
+    position: relative;
 }
 
 .primary-btn:focus {
@@ -2259,16 +2259,25 @@ body.mobile-nav-active #mobile-nav-toggle {
   transition: all 0.3s ease 0s;
 }
 
-.primary-btn:hover {
-  color: #88d200;
-  background-color: transparent;
-  border-color: #88d200;
-}
+    .primary-btn:hover {
+        color: #FF9600;
+        background-color: transparent;
+        border-color: #FF9600;
+    }
 
-.primary-btn.white {
-  border: 1px solid #fff;
-  color: #fff;
-}
+
+    .primary-btn.purple {
+        color: #fff;
+        background-color: #7049BA;
+        line-height: 35px;
+    }
+        .primary-btn.purple:hover {
+            color: white;
+            background-color: transparent;
+            border-color: white;
+        }
+
+
 
 .primary-btn.white span {
   color: #fff;
@@ -2292,8 +2301,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .banner-area {
-  background: url(../img/header-bg.jpg) center;
-  background-size: cover;
+    background: url(https://images2.alphacoders.com/717/thumb-1920-71792.jpg) center;
+    background-size: cover;
 }
 
 .banner-area .overlay-bg {
