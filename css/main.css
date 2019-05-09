@@ -6,6 +6,16 @@
 /* =================================== */
 /*  Basic Style 
 /* =================================== */
+html {
+  scroll-behavior: smooth;
+}
+#author {
+  font-size: 25px;
+  font-weight: 200;
+}
+strong {
+  color: white;
+}
 ::-moz-selection {
   /* Code for Firefox */
   background-color: #88d200;
@@ -13,7 +23,7 @@
 }
 
 ::selection {
-  background-color: #88d200;
+  background-color: orange;
   color: #fff;
 }
 
@@ -2167,6 +2177,36 @@ h1, h2, h3, h4, h5, h6 {
 #mobile-nav ul .menu-has-children i.fa-chevron-up {
   color: #88d200;
 }
+.fa-chevron-down {
+  font-size: 50px;
+  color: white;
+}
+.bounce {
+  -moz-animation: bounce 2s infinite;
+  -webkit-animation: bounce 2s infinite;
+  animation: bounce 2s infinite;
+    position: absolute;
+    bottom: 0;
+}
+
+@keyframes bounce {
+
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
+    transform: translateY(0);
+  }
+
+  40% {
+    transform: translateY(-30px);
+  }
+
+  60% {
+    transform: translateY(-15px);
+  }
+}
 
 #mobile-nav ul .menu-has-children li a {
   text-transform: none;
@@ -2301,7 +2341,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .banner-area {
-    background: url(https://images2.alphacoders.com/717/thumb-1920-71792.jpg) center;
+    background: linear-gradient(to right bottom, #fc4b1ac0, #f7b633cb)    ,
+    url(https://images2.alphacoders.com/717/thumb-1920-71792.jpg) center;
     background-size: cover;
 }
 
@@ -2377,13 +2418,13 @@ body.mobile-nav-active #mobile-nav-toggle {
 .single-service .lnr {
   font-size: 36px;
   color: #222;
-  color: #88d200;
+  color: #FF9600;
 }
 
 .single-service h4 {
   margin-bottom: 20px;
   margin-top: 25px;
-  color: #88d200;
+  color: #FF9600;
 }
 
 .single-service .image {
@@ -2434,6 +2475,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-size: 30px;
   text-align: right;
   font-weight: 100;
+  color: white;
 }
 
 .quote-left h1 span {

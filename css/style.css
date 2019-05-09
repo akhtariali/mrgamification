@@ -1,0 +1,14 @@
+.service-area {
+    text-align: center;
+}
+.single-service i {
+    font-size: 50px;
+}
+.quote-area {
+  background-image: linear-gradient(to right, #fc4a1a, #f7b733);
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: whitesmoke;
+}
