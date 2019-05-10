@@ -1,23 +1,65 @@
 .service-area {
     text-align: center;
 }
+
 .single-service i {
     font-size: 50px;
 }
+
 .quote-area {
-  background-image: linear-gradient(to right, #fc4a1a, #f7b733);
+    background-image: linear-gradient(to right, #fc4a1a, #f7b733);
     height: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
     color: whitesmoke;
 }
+
 .nav-container {
     background-color: red;
 }
+
 #logo {
     margin-bottom: 10px;
 }
+
 #logo-img {
     height: 40px;
+}
+
+.type {
+    padding: 0;
+}
+
+.overlay-effect {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 25%;
+    width: 100%;
+    background-color: #df9c18c4;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.red-overlay {
+    background-color: #fc4b1aa8;
+}
+
+.overlay-effect h2 {
+    font-size: 20px;
+    color: white;
+    font-weight: 500;
+    font-family: 'Frank Ruhl Libre',
+        serif;
+}
+
+.type img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
 }
