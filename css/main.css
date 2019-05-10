@@ -1886,7 +1886,7 @@ h1, h2, h3, h4, h5, h6 {
 # Header
 --------------------------------------------------------------*/
 #header {
-  padding: 0px 0px 14px 0;
+  padding: 0px 0px 10px 0;
   position: fixed;
   left: 0;
   top: 0;
@@ -1901,7 +1901,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .header-top {
-  height: 24px;
+  height: 20px;
   margin-top: 5px;
 }
 
@@ -1936,8 +1936,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header.header-scrolled {
-  background: rgba(0, 0, 0, 0.8);
+  background: rgba(0, 0, 0, 0.5);
   transition: all 0.5s;
+  padding: 0;
 }
 
 @media (max-width: 673px) {
@@ -2341,7 +2342,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .banner-area {
-    background: linear-gradient(to right bottom, #fc4b1a5e, #f7b633ea)    ,
+    background: linear-gradient(to right bottom, #fc4b1a5e, #f7b6339d)    ,
     url(https://wallpapersite.com/images/pages/pic_w/10526.jpg) center;
     background-size: cover;
 }

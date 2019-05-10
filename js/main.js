@@ -163,8 +163,17 @@ $(document).ready(function(){
   $(window).scroll(function() {
     if ($(this).scrollTop() > 100) {
       $('#header').addClass('header-scrolled');
-    } else {
+      $('.navbar-cont').hide(400);
+      $('.header-line').css({
+        'margin-bottom': '0px'
+      });
+}
+else {
       $('#header').removeClass('header-scrolled');
+      $('.navbar-cont').show(400);
+      $('.header-line').css({
+        'margin-bottom': '15px'
+      });
     }
   })
 
