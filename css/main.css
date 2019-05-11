@@ -2728,10 +2728,11 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .gallery-area {
-  background: url(http://www.clker.com/cliparts/4/O/p/b/A/G/red-an-orange-gradient-abstract-wallpaper.svg);
+  background: url(https://images.unsplash.com/photo-1522071820081-009f0129c71c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80);
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-position: center;
+  position: relative;
 }
 
 .gallery-area #grid-container {
@@ -3227,6 +3228,10 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 .blog-banner-area .overlay-bg {
   background: rgba(0, 0, 0, 0.55);
+}
+
+.gallery-area .overlay-bg {
+  background: red;
 }
 
 .blog-banner-wrap {

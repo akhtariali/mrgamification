@@ -50,6 +50,11 @@
 
 }
 
+.gallery-area .overlay-effect {
+    height: 100%;
+    background-image: linear-gradient(to bottom right, #f020044d, #f7b63317);
+}
+
 .red-overlay {
     background-color: #fc4b1aa8;
 }
