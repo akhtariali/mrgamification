@@ -2353,9 +2353,9 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .primary-btn:hover {
-  color: #FF9600;
+  color: white;
   background-color: transparent;
-  border-color: #FF9600;
+  border-color: white;
 }
 
 
@@ -2728,7 +2728,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .gallery-area {
-  background: url(https://images.unsplash.com/photo-1522071820081-009f0129c71c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80);
+  background-color: white;
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-position: center;

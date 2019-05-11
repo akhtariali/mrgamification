@@ -50,9 +50,29 @@
 
 }
 
-.gallery-area .overlay-effect {
+.hire-area .overlay-effect {
     height: 100%;
     background-image: linear-gradient(to bottom right, #f020044d, #f7b63317);
+}
+
+.hire-area h2 {
+    font-size: 25px;
+}
+
+.hire-area h2,
+.hire-area p {
+    z-index: 5;
+    color: white;
+}
+
+#quote-auth {
+    font-size: 17px;
+}
+
+.better {
+    font-family: 'Oleo Script',
+        cursive;
+    font-size: 40px !important;
 }
 
 .red-overlay {
@@ -243,4 +263,11 @@ figure.snip1104:hover:before,
 figure.snip1104.hover:before {
     -webkit-transform: rotate(110deg) translateY(-150%);
     transform: rotate(110deg) translateY(-150%);
+}
+
+
+.hire-area {
+    position: relative;
+    background: url(https://images.unsplash.com/photo-1522071820081-009f0129c71c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80);
+    background-attachment: fixed;
 }
