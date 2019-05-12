@@ -185,9 +185,6 @@ figure.snip1104 figcaption {
 }
 
 figure.snip1104 h2 {
-    position: absolute;
-    left: 40px;
-    right: 40px;
     display: inline-block;
     background: #000000;
     padding: 12px 5px;
@@ -196,6 +193,7 @@ figure.snip1104 h2 {
     text-transform: uppercase;
     font-weight: 400;
     color: white;
+    font-size: 25px;
 }
 
 figure.red h2 {
@@ -283,4 +281,19 @@ figure.snip1104.hover:before {
 
 .read-more:hover strong {
     color: black;
+}
+
+.client {
+    margin-bottom: 0;
+}
+
+
+.client-name {
+    line-height: 18px;
+    color: #fc4a1a;
+    font-weight: bold;
+}
+
+.client-name:hover {
+    color: #f7b733;
 }
