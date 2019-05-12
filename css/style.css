@@ -113,7 +113,6 @@
 
 .small {
     font-size: 12px;
-    background-color: #fc4a1a;
     color: white;
     line-height: 15px;
     padding-left: 30px;
@@ -123,19 +122,8 @@
 .small:hover {
     color: white;
     background-color: transparent;
-    border-color: #fc4a1a;
+    border-color: #0248B3;
 }
-
-.small.orange {
-    background-color: #f7b733;
-}
-
-.small.orange:hover {
-    color: white;
-    background-color: transparent;
-    border-color: #f7b733;
-}
-
 
 /* Projects */
 /* Included color classes.. 
