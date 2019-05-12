@@ -2317,7 +2317,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .primary-btn {
-  background-color: #FF9600;
+  background-color: #0248B3;
   line-height: 42px;
   padding-left: 30px;
   padding-right: 30px;
@@ -2335,6 +2335,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   text-transform: uppercase;
   position: relative;
 }
+
 
 .primary-btn:focus {
   outline: none;
@@ -2358,6 +2359,12 @@ body.mobile-nav-active #mobile-nav-toggle {
   border-color: white;
 }
 
+.primary-btn.skills:hover {
+  color: white;
+  background-color: transparent;
+  border-color: white;
+}
+
 
 .primary-btn.red {
   color: #fff;
@@ -2371,7 +2378,11 @@ body.mobile-nav-active #mobile-nav-toggle {
   border-color: white;
 }
 
-
+.primary-btn.red.skills:hover {
+  color: #fc4a1a;
+  background-color: transparent;
+  border-color: #fc4a1a;
+}
 
 .primary-btn.white span {
   color: #fff;
