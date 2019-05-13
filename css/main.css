@@ -2828,7 +2828,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   border: none;
   width: 80% !important;
   font-weight: 300;
-  background: #f9f9ff;
+  background: rgba(255, 149, 0, 0.068);
   color: #eee;
   padding-left: 20px;
   border-radius: 0;
