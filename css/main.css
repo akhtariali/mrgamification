@@ -2424,6 +2424,10 @@ body.mobile-nav-active #mobile-nav-toggle {
     url(https://wallpapersite.com/images/pages/pic_w/10526.jpg) center;
   background-attachment: fixed;
   background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .banner-area .overlay-bg {
@@ -2580,6 +2584,21 @@ body.mobile-nav-active #mobile-nav-toggle {
   .quote-left h1,
   .quote-right h1 {
     text-align: center;
+  }
+}
+
+@media (max-width: 765px) {
+  .quote-area {
+    height: 330px !important;
+  }
+
+  .quote-right {
+    margin-bottom: 0;
+  }
+
+  .quote-left h1,
+  #author {
+    font-size: 25px;
   }
 }
 
