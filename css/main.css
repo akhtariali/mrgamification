@@ -2584,6 +2584,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   .quote-left h1,
   .quote-right h1 {
     text-align: center;
+    margin-top: 30px;
   }
 }
 

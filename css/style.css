@@ -99,16 +99,18 @@
     padding: 0 8px;
 }
 
-.type:hover .overlay-effect {
-    height: 100%;
+@media (min-width: 992px) {
+    .type:hover .overlay-effect {
+        height: 100%;
+    }
+
+    .type:hover p {
+        display: block;
+    }
 }
 
 .type:hover h2 {
     margin-top: 8px;
-}
-
-.type:hover p {
-    display: block;
 }
 
 .small {
@@ -287,4 +289,10 @@ figure.snip1104.hover:before {
 
 .client-name:hover {
     color: #0248B3;
+}
+
+@media (max-width: 992px) {
+    .overlay-effect h2 {
+        font-size: 30px;
+    }
 }
