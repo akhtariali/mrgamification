@@ -162,6 +162,9 @@ figure.snip1104 img {
     max-width: 100%;
     position: relative;
     opacity: 0.4;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
 }
 
 figure.snip1104 figcaption {
@@ -284,8 +287,4 @@ figure.snip1104.hover:before {
 
 .client-name:hover {
     color: #0248B3;
-}
-
-.btn-xs {
-    /
 }
