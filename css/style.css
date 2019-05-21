@@ -301,6 +301,12 @@ figure.snip1104.hover:before {
     }
 }
 
+@media (min-width: 768px) {
+    .hire-btn {
+        margin-right: 30px;
+    }
+}
+
 @media (max-width: 768px) {
     .title.text-center h1 {
         font-size: 30px;
