@@ -3634,3 +3634,17 @@ body.mobile-nav-active #mobile-nav-toggle {
                End Blog Details  Page style
 ################
 */
+
+/*--------------------------------------------------------------
+# CLIENTS AREA
+--------------------------------------------------------------*/
+.client-logo {
+  width: 60%;
+}
+
+.clients div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+}
