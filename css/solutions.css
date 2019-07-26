@@ -1,3 +1,8 @@
+body {
+    font-family: 'Raleway',
+        sans-serif !important;
+}
+
 .solution-header {
     height: 50vh;
     display: flex;
@@ -22,13 +27,15 @@
     z-index: 1;
 }
 
+.solution-header h1 {
+    font-weight: bold;
+}
 
 .solution-header h3,
 .solution-header h1 {
     z-index: 2;
     position: relative;
     color: white;
-    text-shadow: 2px 2px 2px rgb(28, 3, 255);
 }
 
 .solution-img {
