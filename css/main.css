@@ -2604,7 +2604,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .exibition-area {
-  background-color: #f9f9ff;
+  background-color: #F9F9FF !important;
 }
 
 .exibition-area .owl-dots {
@@ -2773,7 +2773,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .gallery-area {
-  background-color: white;
+  background-color: #F9F9FF;
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-position: center;
