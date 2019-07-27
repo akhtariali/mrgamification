@@ -27,10 +27,6 @@ body {
     z-index: 1;
 }
 
-.solution-header h1 {
-    font-weight: bold;
-}
-
 .solution-header h3,
 .solution-header h1 {
     z-index: 2;
@@ -39,7 +35,7 @@ body {
 }
 
 .solution-img {
-    width: 50vw;
+    width: 100%;
 }
 
 .solution-details p {
@@ -48,6 +44,19 @@ body {
 
 .solution-details p:nth-of-type(3) {
     text-align: left;
+}
+
+@media (max-width: 400px) {
+
+    .solution-header h1,
+    .solution-details h2 {
+        font-size: 25px;
+    }
+
+    .solution-header h3 {
+        font-size: 20px;
+    }
+
 }
 
 /* SOLUTION HEADERS */
