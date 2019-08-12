@@ -1982,46 +1982,26 @@ h6 {
 }
 
 #header.header-scrolled {
-  background: rgba(0, 0, 0, 0.5);
+  background: #FF9600;
   transition: all 0.5s;
-  padding: 0;
+  padding: 10px 20px;
+  box-shadow: 0px 2px 20px rgba(255, 149, 0, 0.65);
 }
 
-@media (max-width: 673px) {
-  #logo {
-    margin-left: 20px;
-  }
+.header-scrolled .nav-menu a {
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
 }
 
-#header #logo h1 {
-  font-size: 34px;
-  margin: 0;
-  padding: 0;
-  line-height: 1;
-  font-weight: 700;
-  letter-spacing: 3px;
+.header-scrolled .header-top,
+.header-scrolled .header-line {
+  display: none;
 }
 
-#header #logo h1 a,
-#header #logo h1 a:hover {
-  color: #fff;
-  padding-left: 10px;
-  border-left: 4px solid #FF9600;
-}
-
-#header #logo img {
-  padding: 0;
-  margin: 0;
-}
-
-@media (max-width: 768px) {
-  #header #logo h1 {
-    font-size: 28px;
-  }
-
-  #header #logo img {
-    max-height: 40px;
-  }
+#logo {
+  color: white;
+  font-size: 30px;
 }
 
 /*--------------------------------------------------------------

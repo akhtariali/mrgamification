@@ -164,51 +164,28 @@ $(document).ready(function () {
 
   // Header scroll class
   $(window).scroll(function () {
-    if ($(this).scrollTop() > 100) {
+    if ($(this).scrollTop() > 200) {
       $('#header').addClass('header-scrolled');
-      $('.navbar-cont').hide(400);
-      $('.header-line').css({
-        'margin-bottom': '0px'
-      });
     } else {
       $('#header').removeClass('header-scrolled');
-      $('.navbar-cont').show(400);
-      $('.header-line').css({
-        'margin-bottom': '15px'
-      });
     }
   })
 
-
-  $('.active-about-carusel').owlCarousel({
-    items: 1,
-    loop: true,
-    margin: 30,
-    dots: true
-  });
-
-  $('.active-exibition-carusel').owlCarousel({
-    items: 3,
-    margin: 30,
-    autoplay: true,
-    loop: true,
-    dots: true,
-    responsive: {
-      0: {
-        items: 1
-      },
-      480: {
-        items: 1,
-      },
-      768: {
-        items: 2,
-      },
-      900: {
-        items: 3,
+  // Hide/show header on scroll down/up
+  var prevScrollpos = window.pageYOffset;
+  $(window).scroll(function () {
+    if ($(this).scrollTop() > 800) {
+      window.onscroll = function () {
+        var currentScrollPos = window.pageYOffset;
+        if (prevScrollpos > currentScrollPos) {
+          document.getElementById("header").style.top = "0";
+        } else {
+          document.getElementById("header").style.top = "-90px";
+        }
+        prevScrollpos = currentScrollPos;
       }
-
     }
-  });
+  })
 
 
   //  Gallery 
