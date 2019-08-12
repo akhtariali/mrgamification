@@ -235,6 +235,10 @@
         <a class="btn btn-secondary mx-2" href="https://www.mrgamification.com/en/hire-gamification-expert/">FREE
             Gamification Advice</a>
     </div>
+
+
+    <!-- FOOTER -->
+    @include('inc.footer')
 </body>
 
 </html>

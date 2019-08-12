@@ -28,7 +28,7 @@
 }
 
 .type {
-    padding: 0;
+    padding: 0 !important;
 }
 
 .overlay-effect {
@@ -264,16 +264,16 @@ figure.snip1104.hover:before {
 }
 
 .read-more {
-    background-color: black;
+    background-color: black !important;
 }
 
 .read-more:hover {
-    background: transparent;
-    border-color: black;
+    background: transparent !important;
+    border-color: black !important;
 }
 
 .read-more:hover strong {
-    color: black;
+    color: black !important;
 }
 
 .client {

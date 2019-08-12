@@ -20,19 +20,11 @@
 		<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,400,300,500,600,700" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css?family=Frank+Ruhl+Libre:500" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css?family=Oleo+Script" rel="stylesheet">
-		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
-			integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
-
 		<!--
 			CSS
 			============================================= -->
-		<link rel="stylesheet" href="css/linearicons.css">
 		<link rel="stylesheet" href="css/font-awesome.min.css">
-		<link rel="stylesheet" href="css/bootstrap.css">
-		<link rel="stylesheet" href="css/magnific-popup.css">
-		<link rel="stylesheet" href="css/nice-select.css">
 		<link rel="stylesheet" href="css/animate.min.css">
-		<link rel="stylesheet" href="css/owl.carousel.css">
 		<link rel="stylesheet" href="css/main.css">
 		<link rel="stylesheet" href="css/style.css">
 	</head>
@@ -376,7 +368,7 @@
 								class="client-logo img-responsive img-fluid" style="width: 80%;">
 						</div>
 						<div class="col-4 col-md-2">
-							<img src="http://www.panevesht.com/sites/default/files/ir.hamkelasi.app__1.png"
+							<img src="http://s.cafebazaar.ir/1/upload/icons/ir.hamkelasi.app.png"
 								class="client-logo img-responsive img-fluid">
 						</div>
 						<div class="col-4 col-md-2">
@@ -600,7 +592,7 @@
 					<h2 class="better mt-3 mb-3">Do Better.</h2>
 					<div class="col-lg-12"></div>
 					<a href="https://www.mrgamification.com/en/hire-gamification-expert/"
-						class="primary-btn btn-sm text-uppercase mb-10 mb-sm-0 hire-btn"> <strong>Hire Us
+						class="primary-btn btn-sm text-uppercase d-flex align-items-center hire-btn"> <strong>Hire Us
 							Now</strong></a>
 					<div class="col-lg-12 btn-br"></div>
 					<a href="https://www.mrgamification.com/en/hire-gamification-expert/"
@@ -612,78 +604,10 @@
 		<!-- END HIRE AREA -->
 
 		<!-- START FOOTER AREA -->
-		<footer class="footer-area section-gap">
-			<div class="container">
-				<div class="row">
-					<div class="col-lg-5 col-md-6 col-sm-6">
-						<div class="single-footer-widget">
-							<h6>Get in Touch to Start a Project</h6>
-							<p>
-								Mr. Gamification would be happy to work with you. Let's gamify the universe.
-							</p>
-							<a href="https://www.mrgamification.com/en/hire-gamification-expert/"
-								class="btn-xs primary-btn orange skills">Get in Touch</a>
-							<p class="footer-text">
-							</p>
-						</div>
-					</div>
-					<div class="col-lg-5  col-md-6 col-sm-6">
-						<div class="single-footer-widget">
-							<h6>Newsletter</h6>
-							<div class="" id="mc_embed_signup">
-								<form target="_blank" novalidate="true"
-									action="https://spondonit.us12.list-manage.com/subscribe/post?u=1462626880ade1ac87bd9c93a&amp;id=92a4423d01"
-									method="get" class="form-inline">
-									<input class="form-control" name="EMAIL" placeholder="Enter Email"
-										onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Email '"
-										required="" type="email">
-									<button class="click-btn btn btn-default"><i class="fas fa-arrow-right"></i></button>
-									<div style="position: absolute; left: -5000px;">
-										<input name="b_36c4fd991d266f23781ded980_aefe40901a" tabindex="-1" value=""
-											type="text">
-									</div>
-
-									<div class="info"></div>
-								</form>
-							</div>
-						</div>
-					</div>
-					<div class="col-lg-2 col-md-6 col-sm-6 social-widget">
-						<div class="single-footer-widget">
-							<h6>Follow Us</h6>
-							<div class="footer-social d-flex align-items-center">
-								<a href="https://www.facebook.com/mrgamification1"><i class="fab fa-facebook"></i></a>
-								<a href="https://t.me/gamificationcenter"><i class="fab fa-telegram"></i></a>
-								<a href="https://www.instagram.com/mr.gamification/?hl=en"><i
-										class="fab fa-instagram"></i></a>
-								<a href="https://www.linkedin.com/company/11499288/"><i class="fab fa-linkedin"></i></a>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</footer>
+			@include('inc.footer')
 		<!-- END FOOTER AREA -->
 
 		<script src="js/vendor/jquery-2.2.4.min.js"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-			integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
-		</script>
-		<script src="js/vendor/bootstrap.min.js"></script>
-		<script type="text/javascript"
-			src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBhOdIF3Y9382fqJYt5I_sswSrEw5eihAA"></script>
-		<script src="js/easing.min.js"></script>
-		<script src="js/hoverIntent.js"></script>
-		<script src="js/superfish.min.js"></script>
-		<script src="js/jquery.ajaxchimp.min.js"></script>
-		<script src="js/jquery.magnific-popup.min.js"></script>
-		<script src="js/owl.carousel.min.js"></script>
-		<script src="js/imagesloaded.pkgd.min.js"></script>
-		<script src="js/justified.min.js"></script>
-		<script src="js/jquery.sticky.js"></script>
-		<script src="js/jquery.nice-select.min.js"></script>
-		<script src="js/parallax.min.js"></script>
-		<script src="js/mail-script.js"></script>
 		<script src="js/main.js"></script>
 	</body>
 
