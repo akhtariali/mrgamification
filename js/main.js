@@ -163,13 +163,18 @@ $(document).ready(function () {
 
 
   // Header scroll class
-  $(window).scroll(function () {
-    if ($(this).scrollTop() > 200) {
-      $('#header').addClass('header-scrolled');
-    } else {
+  function pickNavbarClass(win) {
+    if (win.scrollTop() == 0) {
       $('#header').removeClass('header-scrolled');
+    } else {
+      $('#header').addClass('header-scrolled');
     }
-  })
+  }
+  var $win = $(window);
+  pickNavbarClass($win);
+  $win.scroll(function () {
+    pickNavbarClass($win);
+  });
 
 
   //  Gallery 
