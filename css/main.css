@@ -1985,7 +1985,7 @@ h6 {
   background: #FF9600;
   transition: all 0.5s;
   padding: 10px 20px;
-  box-shadow: 0px 2px 20px rgba(255, 149, 0, 0.65);
+  box-shadow: 0px 2px 20px rgba(150, 87, 0, 0.65);
 }
 
 .header-scrolled .nav-menu a {

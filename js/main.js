@@ -171,26 +171,8 @@ $(document).ready(function () {
     }
   })
 
-  // Hide/show header on scroll down/up
-  var prevScrollpos = window.pageYOffset;
-  $(window).scroll(function () {
-    if ($(this).scrollTop() > 800) {
-      window.onscroll = function () {
-        var currentScrollPos = window.pageYOffset;
-        if (prevScrollpos > currentScrollPos) {
-          document.getElementById("header").style.top = "0";
-        } else {
-          document.getElementById("header").style.top = "-90px";
-        }
-        prevScrollpos = currentScrollPos;
-      }
-    }
-  })
-
 
   //  Gallery 
-
-
   var parameters = {
     gridContainer: '#grid-container',
     gridItems: '.grid-item',
