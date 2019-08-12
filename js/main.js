@@ -171,7 +171,9 @@ $(document).ready(function () {
     }
   }
   var $win = $(window);
+  // Picks navbar's class on page load
   pickNavbarClass($win);
+  // Picks navbar's class on scroll 
   $win.scroll(function () {
     pickNavbarClass($win);
   });
