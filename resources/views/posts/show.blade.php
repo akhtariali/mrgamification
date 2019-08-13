@@ -22,9 +22,15 @@
         <img src="https://blackrockdigital.github.io/startbootstrap-clean-blog/img/post-sample-image.jpg" class="img-fluid img-responsive my-3" alt="">
         <p>Space, the final frontier. These are the voyages of the Starship Enterprise. Its five-year mission: to explore strange new worlds, to seek out new life and new civilizations, to boldly go where no man has gone before. As I stand out here in the wonders of the unknown at Hadley, I sort of realize there’s a fundamental truth to our nature, Man must explore, and this is exploration at its greatest. Placeholder text by Space Ipsum. Photographs by NASA on The Commons.</p>
     </div>
+    <div class="post-categories">
+        <i class="fas fa-chess"></i>
+        <a href="">Gamification in Education</a>,
+        <a href="">Gamification in Workplace</a>,
+        <a href="">Gamified Apps</a>
+    </div>
     <div class="post-buttons d-flex mt-5">
-        <a href="/" class="btn-lg btn-warning mr-auto">Previous</a>
-        <a href="/" class="btn-lg btn-warning ml-auto">Next</a>
+        <a href="/" class="btn-lg primary-btn orange mr-auto">Previous</a>
+        <a href="/" class="btn-lg primary-btn orange ml-auto">Next</a>
     </div>
 </div>
 @endsection
