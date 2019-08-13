@@ -26,3 +26,7 @@ Route::get('/aboutus', function () {
 Route::get('/contactus', function () {
     return view('pages.contactUs');
 });
+
+Route::get('/blog', function () {
+    return view('posts.index');
+});

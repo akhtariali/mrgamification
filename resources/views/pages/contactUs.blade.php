@@ -5,12 +5,12 @@
 
 @section('title', 'Contact Us')
 @section('main-content')
-<div class="header-page">
+<div class="header-page" id="contact-us-background">
    <div class="overlay-page"></div>
    <h1>CONTACT US</h1>
 </div>
-<div class="content-page col-10 mx-auto d-flex mt-5">
-   <form class="col-8 mt-5">
+<div class="content-page col-11 mx-auto d-flex flex-wrap mt-5">
+   <form class="col-11 col-md-8 mt-5 d-flex flex-column align-items-center">
       <div class="form-row">
          <div class="col-md-4 mb-3">
             <label>Your Name</label>
@@ -33,10 +33,10 @@
             </div>
          </div>
       </div>
-      <button class="btn btn-danger" type="submit">Submit</button>
+      <button class="btn btn-danger mr-auto" type="submit">Submit</button>
    </form>
    {{-- <hr class="my-5"> --}}
-   <div class="contact-info d-flex flex-column align-items-center col-4 mt-5">
+   <div class="contact-info d-flex flex-column align-items-center col-11 col-md-4 mt-5 text-center">
        <h2>Mr. Gamification Co.</h2>
        <p class="text-center">Unit 6, Mahtab Complex, Ilvarchi Alley, Villa St., Tehran-Iran</p>
        <p>Tel: <a href="tel:+989120257856" class="styled-anchor">+98 912 025 7856</a></p>
