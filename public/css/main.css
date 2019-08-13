@@ -2449,31 +2449,10 @@ h6 {
 }
 
 @media (max-width: 1024px) {
-    .quote-left h1 br {
+    .quote-left br:first-of-type {
         display: none;
     }
 
-    .quote-left h1 br:last-of-type {
-        display: block;
-    }
-}
-
-@media (max-width: 960px) {
-
-    .quote-left,
-    .quote-right {
-        margin-bottom: 30px;
-        text-align: center;
-    }
-
-    .quote-left h1,
-    .quote-right h1 {
-        text-align: center;
-        margin-top: 30px;
-    }
-}
-
-@media (max-width: 765px) {
     .quote-area {
         height: auto;
         padding: 20px 0 !important;
@@ -2483,10 +2462,26 @@ h6 {
         margin-bottom: 0;
     }
 
+    .quote-left {
+        margin-bottom: 20px;
+    }
+
     .quote-left h1,
     #author {
         font-size: 25px;
     }
+
+    .quote-left,
+    .quote-right {
+        text-align: center;
+    }
+
+    .quote-left h1,
+    .quote-right h1 {
+        text-align: center;
+        margin-top: 30px;
+    }
+}
 }
 
 .exibition-area {
