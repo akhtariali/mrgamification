@@ -30,12 +30,14 @@
         <div class="container navbar-cont">
             <div class="row align-items-center justify-content-between d-flex">
                 <div id="logo">
-                    <i class="fas fa-horse-head ml-3"></i>
+                    <a href="/" style="color: white;">
+                        <i class="fas fa-horse-head ml-3"></i>
+                    </a>
                 </div>
                 <nav id="nav-menu-container" class="d-inline">
                     <ul class="nav-menu">
                         <li><a href="/aboutus">About Us</a></li>
-                        <li><a href="/hire">Contact Us</a></li>
+                        <li><a href="/contactus">Contact Us</a></li>
                         <li><a href="/blog">Blog</a></li>
                     </ul>
                 </nav><!-- #nav-menu-container -->
