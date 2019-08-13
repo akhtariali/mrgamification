@@ -60,9 +60,9 @@
 					</div>
 					<nav id="nav-menu-container" class="d-inline">
 						<ul class="nav-menu">
-							<li><a href="http://www.mrgamification.com/en/gamification-consultant/">About Us</a></li>
+							<li><a href="/about">About Us</a></li>
 							<li><a href="/hire">Contact Us</a></li>
-							<li><a href="https://www.mrgamification.com/en/gamification-blog/">Blog</a></li>
+							<li><a href="/blog">Blog</a></li>
 						</ul>
 					</nav><!-- #nav-menu-container -->
 				</div>
