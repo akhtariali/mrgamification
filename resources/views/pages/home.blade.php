@@ -36,8 +36,8 @@
 				<div class="row">
 					<div class="col-6 top-head-left">
 						<ul>
-							<li><a href="https://www.mrgamification.com/en/hire-gamification-expert/">Persian Version</a></li>
-							<li><a href="https://www.mrgamification.com/en/hire-gamification-expert/">FREE Gamification Advice</a></li>
+							<li><a href="/hire">Persian Version</a></li>
+							<li><a href="/hire">FREE Gamification Advice</a></li>
 						</ul>
 					</div>
 					<div class="col-6 top-head-right">
@@ -62,7 +62,7 @@
 					<nav id="nav-menu-container">
 						<ul class="nav-menu">
 							<li><a href="http://www.mrgamification.com/en/gamification-consultant/">About Us</a></li>
-							<li><a href="https://www.mrgamification.com/en/hire-gamification-expert/">Contact Us</a></li>
+							<li><a href="/hire">Contact Us</a></li>
 							<li><a href="https://www.mrgamification.com/en/gamification-blog/">Blog</a></li>
 						</ul>
 					</nav><!-- #nav-menu-container -->
@@ -87,10 +87,10 @@
 							improve
 							sales.
 						</p>
-						<a href="https://www.mrgamification.com/en/hire-gamification-expert/"
+						<a href="/hire"
 							class="primary-btn red text-uppercase mb-3">FREE Gamification Advice</a>
 						<div class="col-lg-12"></div>
-						<a href="https://www.mrgamification.com/en/hire-gamification-expert/"
+						<a href="/hire"
 							class="primary-btn text-uppercase">Hire
 							Us</a>
 						<div class="col-lg-12"></div>
@@ -160,7 +160,7 @@
 										serious experiences. We designed and
 										developed various mobile games, alternate reality games, board games, and gamified
 										experiences. </p>
-									<a href="https://www.mrgamification.com/en/hire-gamification-expert/"
+									<a href="/hire"
 										class="text-uppercase red skills primary-btn">Hire Us</a>
 								</div>
 							</div>
@@ -185,7 +185,7 @@
 										employee motivations. We also have a
 										decent experience in designing for behavior change in different contexts, including
 										healthcare and urban management. </p>
-									<a href="https://www.mrgamification.com/en/hire-gamification-expert/"
+									<a href="/hire"
 										class="text-uppercase red skills primary-btn">Hire Us</a>
 								</div>
 							</div>
@@ -208,7 +208,7 @@
 										A great development team complements Mr. Gamification's design team. Mr.
 										Gamification developers are masters of on the edge technologies and develop modern
 										web and mobile applications. </p>
-									<a href="https://www.mrgamification.com/en/hire-gamification-expert/"
+									<a href="/hire"
 										class="text-uppercase red skills primary-btn">Hire Us</a>
 								</div>
 							</div>
@@ -229,104 +229,49 @@
 							<h1 class="mb-10">Mr. Gamification Solution Types</h1>
 						</div>
 					</div>
-					<div class="col-lg-4 type">
+					<a href="/categories/workplace" class="col-lg-4 type">
 						<div class="overlay-effect">
 							<h2>Workplace Gamification</h2>
-							<p> As soon as you find the joy in a task, the task will become a gameful mission. By
-								harnessing the power of gamification in the workplace, you can engage your workers more
-								than ever. <a
-									href="https://www.theverge.com/2019/5/22/18635272/amazon-warehouse-working-conditions-gamification-video-games">
-									<strong style='color: blue;'>Amazon</strong>
-								</a>
-								does it; you should probably do it too!
-								<br>
-								<a href="https://www.mrgamification.com/en/hire-gamification-expert/"
-									class="btn primary-btn text-uppercase small mt-3">Hire Us</a>
-							</p>
 						</div>
 
-						<img src="https://images.unsplash.com/photo-1528238646472-f2366160b6c1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1951&q=80"
+						<img src="https://images.unsplash.com/photo-1516681859000-292df1ed3e83?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80"
 							alt="" class="img img-fluid">
-					</div>
-					<div class="col-lg-4 type">
+					</a>
+					<a href="/categories/UX" class="col-lg-4 type">
 						<div class="overlay-effect red-overlay">
 							<h2>User Experience</h2>
-							<p> Gamification, or User-Centered Design, is all about User Experience. By adding gameful
-								elements and gamification methods
-								to your product, you can enhance its UX and dramatically increase user engagement.
-								<br>
-								<a href="https://www.mrgamification.com/en/hire-gamification-expert/"
-									class="btn primary-btn text-uppercase small mt-3">Hire Us</a>
-							</p>
-
-
 						</div>
-						<img src="https://images.unsplash.com/photo-1552664862-db5607e91378?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80"
+						<img src="https://images.unsplash.com/photo-1460066122679-741dd6c4ad37?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1920&q=80"
 							alt="" class="img img-fluid">
-					</div>
-					<div class="col-lg-4 type">
+					</a>
+					<a href="/categories/app" class="col-lg-4 type">
 						<div class="overlay-effect">
 							<h2>Gamified Apps</h2>
-							<p> Mr. Gamification technical team includes skillful developers who can help you in the
-								process of developing a gamified
-								mobile or web application.
-								<br>
-								<a href="https://www.mrgamification.com/en/hire-gamification-expert/"
-									class="btn primary-btn text-uppercase small mt-3">Hire Us</a>
-							</p>
-
 						</div>
-						<img src="https://images.unsplash.com/photo-1484417894907-623942c8ee29?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2089&q=80"
+						<img src="https://cdn.thewirecutter.com/wp-content/uploads/2019/07/500-laptops-2019-lowres-6391-570x380.jpg"
 							alt="" class="img img-fluid">
-					</div>
-					<div class="col-lg-4 type">
+					</a>
+					<a href="/categories/education" class="col-lg-4 type">
 						<div class="overlay-effect">
 							<h2>Gamification in Education</h2>
-							<p> Games are natural pairs of education. Human infants, and many other animals, learn survival
-								skills by playing games. We
-								can use game techniques and gameful elements to increase student engagement and make
-								learning more productive and
-								joyful.
-								<br>
-								<a href="https://www.mrgamification.com/en/hire-gamification-expert/"
-									class="btn primary-btn text-uppercase small mt-3">Hire Us</a>
-							</p>
-
 						</div>
 						<img src="https://images.unsplash.com/photo-1504169448388-60f322bebb2c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80"
 							alt="" class="img img-fluid">
-					</div>
-					<div class="col-lg-4 type">
+					</a>
+					<a href="/categories/lifestyle" class="col-lg-4 type">
 						<div class="overlay-effect red-overlay">
 							<h2>Lifestyle Gamification</h2>
-							<p> Many games and gamified products are trying to change the lifestyle of their users.
-								Gamification for behavior change is
-								one of the most popular branches of gamification. And we, in Mr. Gamification, have a lot
-								of experience in this field.
-								<br>
-								<a href="https://www.mrgamification.com/en/hire-gamification-expert/"
-									class="btn primary-btn text-uppercase small mt-3">Hire Us</a>
-							</p>
-
 						</div>
-						<img src="https://images.unsplash.com/photo-1484100356142-db6ab6244067?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1562&q=80"
+						<img src="https://images.unsplash.com/photo-1491438590914-bc09fcaaf77a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80"
 							alt="" class="img img-fluid">
-					</div>
-					<div class="col-lg-4 type">
+					</a>
+					<a href="/categories/marketing" class="col-lg-4 type">
 						<div class="overlay-effect">
 							<h2>Marketing Campaigns</h2>
-							<p> Gamified elements are all call-to-actions! If you are tired of old marketing techniques and
-								want to try something
-								creative and new, we suggest you take a look at gamification!
-								<br>
-								<a href="https://www.mrgamification.com/en/hire-gamification-expert/"
-									class="btn primary-btn text-uppercase small mt-3">Hire Us</a>
-							</p>
-
 						</div>
-						<img src="https://images.unsplash.com/photo-1532622785990-d2c36a76f5a6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80"
+						<img src="https://images.unsplash.com/photo-1517816428104-797678c7cf0c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80"
 							alt="" class="img img-fluid">
-					</div>
+					</a>
 				</div>
 			</div>
 		</section>
@@ -591,11 +536,11 @@
 					<div class="col-lg-12"></div>
 					<h2 class="better mt-3 mb-3">Do Better.</h2>
 					<div class="col-lg-12"></div>
-					<a href="https://www.mrgamification.com/en/hire-gamification-expert/"
+					<a href="/hire"
 						class="primary-btn btn-sm text-uppercase d-flex align-items-center hire-btn"> <strong>Hire Us
 							Now</strong></a>
 					<div class="col-lg-12 btn-br"></div>
-					<a href="https://www.mrgamification.com/en/hire-gamification-expert/"
+					<a href="/hire"
 						class="primary-btn btn-sm red text-uppercase d-flex align-items-center"><strong>FREE
 							Gamification Advice</strong></a>
 				</div>

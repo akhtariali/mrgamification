@@ -87,30 +87,23 @@
         serif;
 }
 
+.type {
+    overflow: hidden;
+}
+
 .type img {
     height: 100%;
     width: 100%;
     object-fit: cover;
+    transition: .5s;
 }
 
-.type p {
-    display: none;
-    font-size: 12px;
-    padding: 0 8px;
+.type:hover img {
+    transform: scale(1.2);
 }
 
-@media (min-width: 992px) {
-    .type:hover .overlay-effect {
-        height: 100%;
-    }
-
-    .type:hover p {
-        display: block;
-    }
-}
-
-.type:hover h2 {
-    margin-top: 8px;
+.type .overlay-effect {
+    z-index: 3;
 }
 
 .small {
