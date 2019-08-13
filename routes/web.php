@@ -30,3 +30,7 @@ Route::get('/contactus', function () {
 Route::get('/blog', function () {
     return view('posts.index');
 });
+
+Route::get('/post', function () {
+    return view('posts.show');
+});

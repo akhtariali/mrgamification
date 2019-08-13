@@ -38,8 +38,8 @@
    {{-- <hr class="my-5"> --}}
    <div class="contact-info d-flex flex-column align-items-center col-11 col-lg-4 mt-5 text-center">
        <h2>Mr. Gamification Co.</h2>
-       <p class="text-center">Unit 6, Mahtab Complex, Ilvarchi Alley, Villa St., Tehran-Iran</p>
-       <p>Tel: <a href="tel:+989120257856" class="styled-anchor">+98 912 025 7856</a></p>
+       <p class="text-center">Tehran, Ferdows, South Golestan Street, West Sonbol, No 4/1, Unit 10</p>
+       <p>Tel: <a href="tel:+989120257856" class="styled-anchor">+98 21 4495 0371</a></p>
        <p>Email: <a href="mailto:info@mrgamification.com" class="styled-anchor">info@mrgamification.com</a></p>
    </div>
 </div>

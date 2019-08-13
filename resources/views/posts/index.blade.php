@@ -40,7 +40,7 @@
         <hr>
     </div>
     <div class="single-post col-8">
-        <a href="" style="color: black;">
+        <a href="">
             <h2>Gamification 2.0: How Gamification is Passing the "Buzzword" Phase, and How You Should React</h2>
             <h5>The Effects of New Wave Technologies on Gamification</h5>
             </a>
@@ -52,6 +52,13 @@
 <style>
     .header-page {
         background: url(https://images.unsplash.com/photo-1512736912-cd9db1d90b72?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1952&q=80) !important;
+    }
+    .single-post a {
+        color: black !important;
+    }
+    .single-post a:hover {
+        transition: .3s;
+        color: orange !important;
     }
 </style>
 @endsection
