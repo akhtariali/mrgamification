@@ -89,6 +89,7 @@
 
 .type {
     overflow: hidden;
+    height: 350px;
 }
 
 .type img {

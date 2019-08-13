@@ -1,19 +1,11 @@
-<!DOCTYPE html>
-<html lang="en">
+@extends('layouts.app')
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="./css/solutions.css">
-    <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
-    <title>Mr. Gamification Projects</title>
 </head>
 
-<body>
-    <!-- START NAVBAR AREA -->
-        @include('inc.navbar')
-    <!-- END NAVBAR AREA -->
+@section('title', 'Solutions')
+@section('main-content')
     <div class="single-solution" id='lovemoji'>
         <div class="solution-header text-center">
             <div class="overlay"></div>
@@ -236,10 +228,4 @@
         <a class="btn btn-secondary mx-2" href="https://www.mrgamification.com/en/hire-gamification-expert/">FREE
             Gamification Advice</a>
     </div>
-
-
-    <!-- FOOTER -->
-    @include('inc.footer')
-</body>
-
-</html>
+@endsection

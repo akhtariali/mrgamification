@@ -10,7 +10,7 @@
             <div class="row">
                 <div class="col-8 top-head-left">
                     <ul>
-                        <li><a href="/hire"><strong>Persian Version</strong></a></li>
+                        <li><a href="/hire"><b style="color: white;">Persian Version</b></a></li>
                     </ul>
                 </div>
                 <div class="col-4 top-head-right">
