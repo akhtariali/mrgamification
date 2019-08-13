@@ -320,7 +320,7 @@
 					<figcaption class="d-flex justify-content-center align-items-center">
 						<h2>Tarafdari App</h2>
 					</figcaption>
-					<a href="/solutions.html"></a>
+					<a href="/solutions"></a>
 				</figure>
 				<div class="col-lg-12"></div>
 				<p class="client">Client </p>
@@ -334,7 +334,7 @@
 					<figcaption class="d-flex justify-content-center align-items-center">
 						<h2 style="width: 70%;">The Ultimate Forerunner</h2>
 					</figcaption>
-					<a href="/solutions.html"></a>
+					<a href="/solutions"></a>
 				</figure>
 				<div class="col-lg-12"></div>
 				<p class="client">Client </p>
@@ -348,7 +348,7 @@
 					<figcaption class="d-flex justify-content-center align-items-center">
 						<h2>Robokids</h2>
 					</figcaption>
-					<a href="/solutions.html"></a>
+					<a href="/solutions"></a>
 				</figure>
 				<div class="col-lg-12"></div>
 				<p class="client">Client </p>
@@ -362,7 +362,7 @@
 					<figcaption class="d-flex justify-content-center align-items-center">
 						<h2>Kharazmi Interactive Course</h2>
 					</figcaption>
-					<a href="/solutions.html"></a>
+					<a href="/solutions"></a>
 				</figure>
 				<div class="col-lg-12"></div>
 				<p class="client">Client </p>
@@ -377,7 +377,7 @@
 					<figcaption class="d-flex justify-content-center align-items-center">
 						<h2 style="width: 70%;">Pemina Campaign</h2>
 					</figcaption>
-					<a href="/solutions.html"></a>
+					<a href="/solutions"></a>
 				</figure>
 				<div class="col-lg-12"></div>
 				<p class="client">Client </p>
@@ -391,7 +391,7 @@
 					<figcaption class="d-flex justify-content-center align-items-center">
 						<h2>Lovemoji</h2>
 					</figcaption>
-					<a href="/solutions.html"></a>
+					<a href="/solutions"></a>
 				</figure>
 				<div class="col-lg-12"></div>
 				<p class="client">Client </p>

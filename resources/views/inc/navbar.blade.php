@@ -34,7 +34,7 @@
                 </div>
                 <nav id="nav-menu-container" class="d-inline">
                     <ul class="nav-menu">
-                        <li><a href="/about">About Us</a></li>
+                        <li><a href="/aboutus">About Us</a></li>
                         <li><a href="/hire">Contact Us</a></li>
                         <li><a href="/blog">Blog</a></li>
                     </ul>

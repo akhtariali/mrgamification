@@ -125,6 +125,10 @@
     text-align: left;
 }
 
+.nav-menu a:hover {
+    color: white;
+}
+
 /* Nav Menu Arrows */
 .sf-arrows .sf-with-ul {
     padding-right: 30px;

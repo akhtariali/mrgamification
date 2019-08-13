@@ -5,11 +5,11 @@
 
 @section('title', 'About Us')
 @section('main-content')
-<div class="header">
-    <div class="overlay"></div>
-    <h1>ABOUT US</h1>
-</div>
-<div class="content col-9 mx-auto mt-5">
+    <div class="header-page">
+        <div class="overlay-page"></div>
+        <h1>ABOUT US</h1>
+    </div>
+    <div class="content-page col-9 mx-auto mt-5">
     <h2>Who Are We?</h2>
     <p><a href="/" class="styled-anchor">Mr. Gamification</a> is a gamification consultant and a geek! He tries to gamify everything. Whenever he is unhappy, unengaged, or unproductive, he uses the power of gamification to make things more exciting. He loves sharing his passion for behavioral science with others.</p>
     <br>
