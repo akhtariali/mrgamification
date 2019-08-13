@@ -29,6 +29,7 @@
 .top-head-left ul li {
     display: inline-block;
     margin-right: 10px;
+
 }
 
 .top-head-right {
@@ -38,6 +39,7 @@
 .top-head-right ul li {
     display: inline-block;
     margin-left: 10px;
+
 }
 
 .top-head-right ul li a {

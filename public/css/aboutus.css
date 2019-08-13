@@ -1,0 +1,41 @@
+.header {
+    height: 60vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url(https://images.unsplash.com/photo-1560749605-cebc04c2697c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1567&q=80);
+}
+
+.header h1 {
+    z-index: 3;
+    position: relative;
+    color: white;
+    font-size: 60px;
+    font-weight: bolder;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 60vh;
+    width: 100%;
+    background: linear-gradient(to top right, #d87f03, #8d0902);
+    background-attachment: fixed;
+    background-size: cover;
+    opacity: 0.7;
+    z-index: 1;
+}
+
+.content h2 {
+    font-weight: bolder;
+}
+
+.content p,
+.content li,
+.content q {
+    font-size: 20px;
+}

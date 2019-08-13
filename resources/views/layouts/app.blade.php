@@ -14,8 +14,10 @@
     <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,400,300,500,600,700" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Frank+Ruhl+Libre:500" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Oleo+Script" rel="stylesheet">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="shortcut icon" href="https://www.mrgamification.com/en/wp-content/uploads/2018/09/horse.png" type="image/x-icon">
 </head>
-<body>
+<body style="overflow-x: hidden;">
     @include('inc.navbar')
     @yield('main-content')
     @include('inc.footer')
