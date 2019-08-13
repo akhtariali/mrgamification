@@ -6,13 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="./css/solutions.css">
-    <link rel="stylesheet" href="css/bootstrap.css">
     <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
     <title>Mr. Gamification Projects</title>
-
 </head>
 
 <body>
+    <!-- START NAVBAR AREA -->
+        @include('inc.navbar')
+    <!-- END NAVBAR AREA -->
     <div class="single-solution" id='lovemoji'>
         <div class="solution-header text-center">
             <div class="overlay"></div>
