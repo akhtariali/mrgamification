@@ -2058,7 +2058,7 @@ h6 {
 
 .primary-btn.orange {
     color: #fff;
-    background-color: #FF9600;
+    background-color: #FF9600 !important;
     line-height: 35px;
 }
 

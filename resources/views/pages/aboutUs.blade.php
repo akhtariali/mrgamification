@@ -1,7 +1,4 @@
 @extends('layouts.app')
-<head>
-    <link rel="stylesheet" href="./css/aboutus.css">
-</head>
 
 @section('title', 'About Us')
 @section('main-content')

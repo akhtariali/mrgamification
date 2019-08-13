@@ -22,3 +22,7 @@ Route::get('/solutions', function () {
 Route::get('/aboutus', function () {
     return view('pages.aboutUs');
 });
+
+Route::get('/contactus', function () {
+    return view('pages.contactUs');
+});
