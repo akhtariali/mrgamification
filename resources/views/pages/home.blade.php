@@ -28,10 +28,10 @@
 					improve
 					sales.
 				</p>
-				<a href="/hire"
+				<a href="/contactus"
 					class="primary-btn red text-uppercase mb-3">FREE Gamification Advice</a>
 				<div class="col-lg-12"></div>
-				<a href="/hire"
+				<a href="/contactus"
 					class="primary-btn text-uppercase">Hire
 					Us</a>
 				<div class="col-lg-12"></div>
@@ -102,7 +102,7 @@
 								serious experiences. We designed and
 								developed various mobile games, alternate reality games, board games, and gamified
 								experiences. </p>
-							<a href="/hire"
+							<a href="/contactus"
 								class="text-uppercase red skills primary-btn">Hire Us</a>
 						</div>
 					</div>
@@ -127,7 +127,7 @@
 								employee motivations. We also have a
 								decent experience in designing for behavior change in different contexts, including
 								healthcare and urban management. </p>
-							<a href="/hire"
+							<a href="/contactus"
 								class="text-uppercase red skills primary-btn">Hire Us</a>
 						</div>
 					</div>
@@ -150,7 +150,7 @@
 								A great development team complements Mr. Gamification's design team. Mr.
 								Gamification developers are masters of on the edge technologies and develop modern
 								web and mobile applications. </p>
-							<a href="/hire"
+							<a href="/contactus"
 								class="text-uppercase red skills primary-btn">Hire Us</a>
 						</div>
 					</div>
@@ -478,11 +478,11 @@
 			<div class="col-lg-12"></div>
 			<h2 class="better mt-3 mb-3">Do Better.</h2>
 			<div class="col-lg-12"></div>
-			<a href="/hire"
+			<a href="/contactus"
 				class="primary-btn btn-sm text-uppercase d-flex align-items-center hire-btn"> <strong>Hire Us
 					Now</strong></a>
 			<div class="col-lg-12 btn-br"></div>
-			<a href="/hire"
+			<a href="/contactus"
 				class="primary-btn btn-sm red text-uppercase d-flex align-items-center m-2 m-sm-0"><strong>FREE
 					Gamification Advice</strong></a>
 		</div>

@@ -9,7 +9,7 @@
    <div class="overlay-page"></div>
    <h1>CONTACT US</h1>
 </div>
-<div class="content-page col-11 mx-auto d-flex flex-wrap mt-5">
+<div class="content-page col-11 mx-auto d-flex flex-wrap justify-content-center mt-5">
    <form class="col-11 col-lg-8 mt-5 d-flex flex-column align-items-center">
       <div class="form-row">
          <div class="col-md-4 mb-3">
