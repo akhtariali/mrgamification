@@ -5,7 +5,7 @@
 @section('main-content')
 <div class="header-page header-post">
     <div class="overlay-page"></div>
-    <h2 class="text-center px-5">Gamification 2.0: How Gamification is Passing the "Buzzword" Phase, and How You Should React</h2>
+    <h2 class="text-center px-5 mt-3">Gamification 2.0: How Gamification is Passing the "Buzzword" Phase, and How You Should React</h2>
     <h4 class="px-5">The Effects of New Wave Technologies on Gamification</h4>
     <hr>
     <i>Posted by <a href="">Ali Akhtari</a> on September 24, 2019</i>
@@ -19,7 +19,7 @@
         <p>Spaceflights cannot be stopped. This is not the work of any one man or even a group of men. It is a historical process which mankind is carrying out in accordance with the natural laws of human development.</p>
         <h3>Reaching for the Stars</h3>
         <p>As we got further and further away, it [the Earth] diminished in size. Finally it shrank to the size of a marble, the most beautiful you can imagine. That beautiful, warm, living object looked so fragile, so delicate, that if you touched it with a finger it would crumble and fall apart. Seeing this has to change a man.</p>
-        <img src="https://blackrockdigital.github.io/startbootstrap-clean-blog/img/post-sample-image.jpg" class="img-fluid img-responsive my-3" alt="">
+        <img src="https://blackrockdigital.github.io/startbootstrap-clean-blog/img/post-sample-image.jpg" class="img-fluid img-responsive my-3 col-12" alt="">
         <p>Space, the final frontier. These are the voyages of the Starship Enterprise. Its five-year mission: to explore strange new worlds, to seek out new life and new civilizations, to boldly go where no man has gone before. As I stand out here in the wonders of the unknown at Hadley, I sort of realize there’s a fundamental truth to our nature, Man must explore, and this is exploration at its greatest. Placeholder text by Space Ipsum. Photographs by NASA on The Commons.</p>
     </div>
     <div class="post-categories">
@@ -33,4 +33,10 @@
         <a href="/" class="btn-lg primary-btn orange ml-auto">Next</a>
     </div>
 </div>
+
+<style>
+.header-page {
+    background: url(https://images.unsplash.com/photo-1500236861371-c749e9a06b46?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80) !important;
+}
+</style>
 @endsection
