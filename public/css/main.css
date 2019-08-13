@@ -3105,6 +3105,12 @@ h6 {
     z-index: 3;
     position: relative;
     color: white;
+    text-align: center;
+}
+@media (max-width: 768px){
+    .header-page h2 {
+        font-size: 30px;
+    }
 }
 
 .header-page hr {
