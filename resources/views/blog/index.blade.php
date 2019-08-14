@@ -16,6 +16,7 @@
             <i>Posted by <a href="" class="styled-anchor">{{$post->author}}</a> on {{$post->created_at}}</i>
             <hr>
         </div>
+        {{$posts->links()}}
     @endforeach
 </div>
 
