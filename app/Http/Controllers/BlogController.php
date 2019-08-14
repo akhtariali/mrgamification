@@ -64,6 +64,9 @@ class BlogController extends Controller
     public function show($id)
     {
         $post = Post::find($id);
+        // Creates an array of post categories, and replaces " " with "-" in categories
+        $post->categories = str_replace(" ","-", explode(",", $post->categories));
+        //
         return view('blog.show')->with('post', $post);
 
     }

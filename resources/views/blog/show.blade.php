@@ -17,11 +17,11 @@
     <div class="content-post col-12">
         {!!$post->body!!}
     </div>
-    <div class="post-categories m">
+    <div class="post-categories">
         <i class="fas fa-chess"></i>
-        <a href="">Gamification in Education</a>,
-        <a href="">Gamification in Workplace</a>,
-        <a href="">Gamified Apps</a>
+        @foreach ($post->categories as $category)
+            <a href="/blog/categories/{{$category}}">{{$category}}</a>,
+        @endforeach
     </div>
     <div class="post-buttons d-flex mt-5">
         @if ($post->id > 1)
