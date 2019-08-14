@@ -1,3 +1,6 @@
+@php
+    use App\Post;
+@endphp
 @extends('layouts.app')
 
 @section('title', $post->title)
@@ -21,8 +24,12 @@
         <a href="">Gamified Apps</a>
     </div>
     <div class="post-buttons d-flex mt-5">
-        <a href="/" class="btn-lg primary-btn orange mr-auto">Previous</a>
-        <a href="/" class="btn-lg primary-btn orange ml-auto">Next</a>
+        @if ($post->id > 1)
+            <a href="/{{$post->id - 1}}" class="btn-lg primary-btn orange mr-auto">Previous</a>
+        @endif
+        @if (Post::find($post->id + 1))
+            <a href="/{{$post->id + 1}}" class="btn-lg primary-btn orange ml-auto">Next</a>
+        @endif
     </div>
 </div>
 
