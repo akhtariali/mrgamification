@@ -6,6 +6,9 @@
     <div class="overlay-page"></div>
     <h1>BLOG</h1>
 </div>
+<div class="messages col-8 mx-auto mt-5">
+    @include('inc.messages')
+</div>
 <div class="content-page mt-5 d-flex flex-column align-items-center">
     @foreach ($posts as $post)
         <div class="single-post col-8">
@@ -13,7 +16,9 @@
                 <h2>{{$post->title}}</h2>
                 <h5>{{$post->secondary_title}}</h5>
                 </a>
-            <i>Posted by <a href="" class="styled-anchor">{{$post->author}}</a> on {{$post->created_at}}</i>
+            <i>Posted by <a href="" class="styled-anchor">{{$post->author}}</a>
+                on {{date('Y M d', strtotime($post->created_at))}}
+            </i>
             <hr>
         </div>
         {{$posts->links()}}

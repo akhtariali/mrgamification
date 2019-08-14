@@ -25,7 +25,7 @@ class BlogController extends Controller
      */
     public function create()
     {
-        //
+        return view('blog.create');
     }
 
     /**
@@ -36,7 +36,23 @@ class BlogController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $this->validate($request, [
+            'title' => 'required',
+            'body' => 'required',
+            'categories' => 'required',
+            'author' => 'required'
+        ]);
+
+        // Create Post
+        $post = new Post;
+        $post->title = $request->input('title');
+        $post->secondary_title = $request->input('secondary_title');
+        $post->body = $request->input('body');
+        $post->categories = $request->input('categories');
+        $post->author = $request->input('author');
+        $post->save();
+        
+        return redirect('/blog')->with('success', 'Post has been published!');
     }
 
     /**
@@ -60,7 +76,8 @@ class BlogController extends Controller
      */
     public function edit($id)
     {
-        //
+        $post = Post::find($id);
+        return view('blog.edit')->with('post', $post);
     }
 
     /**
@@ -72,7 +89,24 @@ class BlogController extends Controller
      */
     public function update(Request $request, $id)
     {
-        //
+        $this->validate($request, [
+            'title' => 'required',
+            'body' => 'required',
+            'categories' => 'required',
+            'author' => 'required'
+        ]);
+
+        // Update Post
+        $post = Post::find($id);
+        $post->title = $request->input('title');
+        $post->secondary_title = $request->input('secondary_title');
+        $post->body = $request->input('body');
+        $post->categories = $request->input('categories');
+        $post->author = $request->input('author');
+        $post->save();
+        
+        return redirect('/blog')->with('success', 'Post has been updated!');
+
     }
 
     /**
@@ -83,6 +117,9 @@ class BlogController extends Controller
      */
     public function destroy($id)
     {
-        //
+        $post = Post::find($id);
+        $post->delete();
+
+        return redirect('/blog')->with('success', 'Post has been deleted!');
     }
 }
