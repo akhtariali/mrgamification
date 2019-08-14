@@ -1,8 +1,8 @@
 <head>
-        <link rel="stylesheet" href="css/font-awesome.min.css">
-		<link rel="stylesheet" href="css/navbar.css">
-		<script src="js/vendor/jquery-2.2.4.min.js"></script>
-		<script src="js/navbar.js"></script>
+        <link rel="stylesheet" href="/css/font-awesome.min.css">
+		<link rel="stylesheet" href="/css/navbar.css">
+		<script src="/js/vendor/jquery-2.2.4.min.js"></script>
+		<script src="/js/navbar.js"></script>
 </head>
 <!-- SMALL NAVBAR -->
     <header id="header" id="home">

@@ -27,10 +27,4 @@ Route::get('/contactus', function () {
     return view('pages.contactUs');
 });
 
-Route::get('/blog', function () {
-    return view('posts.index');
-});
-
-Route::get('/post', function () {
-    return view('posts.show');
-});
+Route::resource('blog', 'BlogController');
