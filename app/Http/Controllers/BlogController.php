@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 use App\Post;
+use Illuminate\Support\Facades\Storage;
 
 use Illuminate\Http\Request;
 
@@ -44,8 +45,22 @@ class BlogController extends Controller
             'title' => 'required',
             'body' => 'required',
             'categories' => 'required',
-            'author' => 'required'
+            'author' => 'required',
+            'cover_image' => 'required|max:1999'
         ]);
+
+        // Handle File Upload
+        // Get Filename Without Extension
+        $filenameWithExt = $request->file('cover_image')->getClientOriginalName();
+        // Get Just Filename
+        $filename = pathinfo($filenameWithExt, PATHINFO_FILENAME);
+        // Get Just Extension
+        $extension = $request->file('cover_image')->getClientOriginalExtension();
+        // Filename to Store
+        $filenameToStore = $filename.'_'.time().'.'.$extension;
+        // Upload Image
+        $path = $request->file('cover_image')->storeAs('public/images', $filenameToStore);
+
 
         // Create Post
         $post = new Post;
@@ -54,6 +69,7 @@ class BlogController extends Controller
         $post->body = $request->input('body');
         $post->categories = $request->input('categories');
         $post->author = $request->input('author');
+        $post->cover_image = $filenameToStore;
         $post->save();
         
         return redirect('/blog')->with('success', 'Post has been published!');
@@ -69,7 +85,7 @@ class BlogController extends Controller
     {
         $post = Post::find($id);
         // Creates an array of post categories, and replaces " " with "-" in categories
-        $post->categories = str_replace(" ","-", explode(",", $post->categories));
+        $post->categories = explode(",", $post->categories);
         //
         return view('blog.show')->with('post', $post);
 
@@ -100,16 +116,36 @@ class BlogController extends Controller
             'title' => 'required',
             'body' => 'required',
             'categories' => 'required',
-            'author' => 'required'
+            'author' => 'required',
+            'cover_image' => 'required|max:1999'
         ]);
 
-        // Update Post
+        if($request->hasFile('cover_image')){
+            // Handle File Upload
+            // Get Filename Without Extension
+            $filenameWithExt = $request->file('cover_image')->getClientOriginalName();
+            // Get Just Filename
+            $filename = pathinfo($filenameWithExt, PATHINFO_FILENAME);
+            // Get Just Extension
+            $extension = $request->file('cover_image')->getClientOriginalExtension();
+            // Filename to Store
+            $filenameToStore = $filename.'_'.time().'.'.$extension;
+            // Upload Image
+            $path = $request->file('cover_image')->storeAs('public/images', $filenameToStore);
+        }
+
         $post = Post::find($id);
+        // Creates an array of post categories, and replaces " " with "-" in categories
+        $post->categories = str_replace(" ","-", explode(",", $post->categories));
+        // Update Post
         $post->title = $request->input('title');
         $post->secondary_title = $request->input('secondary_title');
         $post->body = $request->input('body');
         $post->categories = $request->input('categories');
         $post->author = $request->input('author');
+        if($request->hasFile('cover_image')){
+            $post->cover_image = $filenameToStore;
+        }
         $post->save();
         
         return redirect('/blog')->with('success', 'Post has been updated!');
@@ -125,6 +161,7 @@ class BlogController extends Controller
     public function destroy($id)
     {
         $post = Post::find($id);
+        Storage::delete('public/images/'.$post->cover_image);
         $post->delete();
 
         return redirect('/blog')->with('success', 'Post has been deleted!');

@@ -10,7 +10,7 @@
     @include('inc.messages')
 </div>
 <div class="content-page mt-5 col-10 mx-auto">
-    {!! Form::open(['action' => ['BlogController@update', $post->id], 'method' => 'POST']) !!}
+    {!! Form::open(['action' => ['BlogController@update', $post->id], 'method' => 'POST', 'enctype' => "multipart/form-data"]) !!}
         <div class="form-group">
             {{Form::label('title', 'Title')}}
             {{Form::text('title', $post->title, ['class' => 'form-control', 'placeholder' => 'Enter Title Here...'])}}
@@ -37,15 +37,17 @@
             }}
         </div>
         {{Form::hidden('_method', 'PUT')}}
+        <div class="form-group">
+            {{Form::file('cover_image')}}
+        </div>
         {{Form::submit('Submit', ['class' => 'btn primary-btn red'])}}
 
     {!! Form::close() !!}
 </div>
 
 <style>
-    .header-page {
-        background: url(https://images.unsplash.com/photo-1455390582262-044cdead277a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1566&q=80) !important;
-        background-position: bottom !important;
+    .header-post.header-page {
+        background: url('/storage/images/{{$post->cover_image}}');
     }
     .btn.red:hover {
         background-color: red !important;

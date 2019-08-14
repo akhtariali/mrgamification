@@ -6,7 +6,8 @@
 @section('title', $post->title)
 
 @section('main-content')
-<div class="header-page header-post">
+<div class="header-page header-post"
+    style="">
     <div class="overlay-page"></div>
     <h2 class="text-center px-5 mt-3">{{$post->title}}</h2>
     <h4 class="px-5">{{$post->secondary_title}}</h4>
@@ -25,8 +26,18 @@
     </div>
     <div class="post-categories">
         <i class="fas fa-chess"></i>
+        @php
+            $numCategories = count($post->categories);
+            $i = 0;
+        @endphp
         @foreach ($post->categories as $category)
-            <a href="/blog/categories/{{$category}}">{{$category}}</a>,
+            <a href="/blog/categories/{{str_replace(" ","-", $category)}}">{{$category}}</a>
+            @php
+            // Does not insert "," after last item
+              if(++$i != $numCategories) {
+                  echo ',';
+              }
+            @endphp
         @endforeach
     </div>
     <div class="post-buttons d-flex mt-5">
@@ -50,14 +61,14 @@
 </div>
 
 <style>
-.header-page {
-    background: url(https://images.unsplash.com/photo-1500236861371-c749e9a06b46?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80) !important;
-}
-.content-page {
-    word-break: break-all;
-}
-.content-post strong {
-    color: black !important;
-}
+    .header-post.header-page {
+        background: url('/storage/images/{{$post->cover_image}}');
+    }
+    .content-page {
+        word-break: break-all;
+    }
+    .content-post strong {
+        color: black !important;
+    }
 </style>
 @endsection
