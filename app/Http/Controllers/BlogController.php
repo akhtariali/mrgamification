@@ -116,8 +116,7 @@ class BlogController extends Controller
             'title' => 'required',
             'body' => 'required',
             'categories' => 'required',
-            'author' => 'required',
-            'cover_image' => 'required|max:1999'
+            'author' => 'required'
         ]);
 
         if($request->hasFile('cover_image')){
