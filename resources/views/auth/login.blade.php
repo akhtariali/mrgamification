@@ -1,7 +1,12 @@
 @extends('layouts.app')
 
-@section('content')
-<div class="container">
+@section('title', 'Log In')
+@section('main-content')
+<div class="header-page">
+    <div class="overlay-page"></div>
+    <h1>LOG IN</h1>
+</div>
+<div class="container mt-5">
     <div class="row justify-content-center">
         <div class="col-md-8">
             <div class="card">

@@ -11,7 +11,13 @@
     <h2 class="text-center px-5 mt-3">{{$post->title}}</h2>
     <h4 class="px-5">{{$post->secondary_title}}</h4>
     <hr>
-    <i>Posted by <a href="">{{$post->author}}</a> on {{date('Y M d', strtotime($post->created_at))}}</i>
+    <i>Posted by 
+        @if ($post->author = 'Ali Akhtari')
+            <a href="http://aliakhtari.me">{{$post->author}}</a>
+        @else
+            <a href="https://www.linkedin.com/in/kamran-hatami-608ab010b/">{{$post->author}}</a>
+        @endif
+         on {{date('Y M d', strtotime($post->created_at))}}</i>
 </div>
 <div class="content-page mt-5 col-11 col-md-8 mx-auto">
     <div class="content-post col-12">
@@ -24,13 +30,14 @@
         @endforeach
     </div>
     <div class="post-buttons d-flex mt-5">
-        @if ($post->id > 1)
+        @if (Post::find($post->id + 1))
             <a href="/blog/{{$post->id - 1}}" class="btn primary-btn orange mr-auto font-weight-normal">Previous</a>
         @endif
         @if (Post::find($post->id + 1))
             <a href="/blog/{{$post->id + 1}}" class="btn primary-btn orange ml-auto font-weight-normal">Next</a>
         @endif
     </div>
+    @if (!Auth::guest())
     <hr>
     <div class="edit-buttons">
         <a href="/blog/{{$post->id}}/edit" class="btn btn-secondary">Edit</a>
@@ -39,6 +46,7 @@
             {{Form::submit('Delete', ['class' => 'btn btn-danger'])}}
         {!!Form::close()!!}
     </div>
+    @endif
 </div>
 
 <style>

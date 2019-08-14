@@ -1,5 +1,5 @@
 @extends('layouts.app')
-@section('title', 'Create Post')
+@section('title', 'Edit Post')
 @section('main-content')
 <div class="header-page header-post mb-5">
     <div class="overlay-page"></div>

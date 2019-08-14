@@ -10,7 +10,7 @@
     @include('inc.messages')
 </div>
 <div class="content-page mt-5 col-10 mx-auto">
-    {!! Form::open(['action' => 'BlogController@store', 'method' => 'POST']) !!}
+    {!! Form::open(['action' => 'BlogController@store', 'method' => 'POST', 'enctype' => 'multipart/data']) !!}
         <div class="form-group">
             {{Form::label('title', 'Title')}}
             {{Form::text('title', '', ['class' => 'form-control', 'placeholder' => 'Enter Title Here...'])}}
@@ -35,6 +35,9 @@
                 "placeholder" => "Pick the Author..."
                 ])
             }}
+        </div>
+        <div class="form-group">
+            {{Form::file('cover_image')}}
         </div>
         {{Form::submit('Submit', ['class' => 'btn primary-btn red'])}}
 
