@@ -28,10 +28,5 @@ Route::get('/contactus', function () {
 });
 
 Route::resource('blog', 'BlogController');
+Route::resource('categories', 'CategoriesController');
 Auth::routes();
-
-Route::get('/home', 'HomeController@index')->name('home');
-
-Auth::routes();
-
-Route::get('/home', 'HomeController@index')->name('home');

@@ -1,5 +1,6 @@
 @php
     use App\Post;
+    use App\Category;
 @endphp
 @extends('layouts.app')
 
@@ -31,7 +32,13 @@
             $i = 0;
         @endphp
         @foreach ($post->categories as $category)
-            <a href="/blog/categories/{{str_replace(" ","-", $category)}}">{{$category}}</a>
+            @php
+                // Finds the category in Category Model and sets its ID to $selectedId, which will be used
+                // in routing in the next anchor
+                $selectedCategory = Category::where('category', $category)->first();
+                $selectedId = $selectedCategory->id;
+            @endphp
+            <a href="/blog/categories/{{$selectedId}}">{{$category}}</a>
             @php
             // Does not insert "," after last item
               if(++$i != $numCategories) {

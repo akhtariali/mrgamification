@@ -25,7 +25,16 @@
         </div>
         <div class="form-group">
             {{Form::label('categories', 'Categories')}}
-            {{Form::text('categories', '', ['class' => 'form-control', 'placeholder' => 'Enter Categories Here...'])}}
+            <br>
+            @php
+                // Fetched categories from Category model
+                use App\Category;
+                $categories = Category::all();
+            @endphp
+            @foreach ($categories as $category)
+                {!! Form::checkbox('categories[]', $category->category) !!}
+                {{Form::label($category->category, $category->category)}}
+            @endforeach
         </div>
         <div class="form-group">
             {{Form::label('author', 'Author')}}

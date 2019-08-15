@@ -67,7 +67,7 @@ class BlogController extends Controller
         $post->title = $request->input('title');
         $post->secondary_title = $request->input('secondary_title');
         $post->body = $request->input('body');
-        $post->categories = $request->input('categories');
+        $post->categories = implode(",", $request->input('categories'));
         $post->author = $request->input('author');
         $post->cover_image = $filenameToStore;
         $post->save();
