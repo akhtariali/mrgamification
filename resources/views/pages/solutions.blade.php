@@ -78,9 +78,9 @@
     <div class="jumbotron d-flex justify-content-center align-items-center flex-wrap m-0 mt-5">
         <h3 class="mb-4">Get In Touch</h3>
         <div class="col-12"></div>
-        <a href="https://www.mrgamification.com/en/hire-gamification-expert/" class="btn btn-primary mx-2">Hire
+        <a href="/contactus" class="btn btn-primary mx-2">Hire
             Us</a>
-        <a class="btn btn-secondary mx-2" href="https://www.mrgamification.com/en/hire-gamification-expert/">FREE
+        <a class="btn btn-secondary mx-2" href="/contactus">FREE
             Gamification Advice</a>
     </div>
     <div class="single-solution" id='kharazmi'>
@@ -157,8 +157,8 @@
     <div class="jumbotron d-flex justify-content-center align-items-center flex-wrap m-0 mt-5">
         <h3 class="mb-4">Get In Touch</h3>
         <div class="col-12"></div>
-        <a class="btn btn-primary mx-2" href="https://www.mrgamification.com/en/hire-gamification-expert/">Hire Us</a>
-        <a class="btn btn-secondary mx-2" href="https://www.mrgamification.com/en/hire-gamification-expert/">FREE
+        <a class="btn btn-primary mx-2" href="/contactus">Hire Us</a>
+        <a class="btn btn-secondary mx-2" href="/contactus">FREE
             Gamification Advice</a>
     </div>
     <div class="single-solution" id='northerners'>
@@ -224,8 +224,8 @@
     <div class="jumbotron d-flex justify-content-center align-items-center flex-wrap m-0 mt-5">
         <h3 class="mb-4">Get In Touch</h3>
         <div class="col-12"></div>
-        <a class="btn btn-primary mx-2" href="https://www.mrgamification.com/en/hire-gamification-expert/">Hire Us</a>
-        <a class="btn btn-secondary mx-2" href="https://www.mrgamification.com/en/hire-gamification-expert/">FREE
+        <a class="btn btn-primary mx-2" href="/contactus">Hire Us</a>
+        <a class="btn btn-secondary mx-2" href="/contactus">FREE
             Gamification Advice</a>
     </div>
 @endsection
