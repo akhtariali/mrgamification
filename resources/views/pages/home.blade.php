@@ -1,3 +1,6 @@
+@php
+    use App\Post;
+@endphp
 
 @extends('layouts.app')
 <head>
@@ -404,7 +407,7 @@
 <!-- END PROJECTS AREA -->
 
 <!-- START BLOG AREA -->
-<section class="blog-area pt-80 pb-80" id="blog">
+<section class="blog-area pt-80 pb-80">
 	<div class="container">
 		<div class="row d-flex justify-content-center">
 			<div class="menu-content pb-40 col-lg-8">
@@ -414,53 +417,24 @@
 			</div>
 		</div>
 		<div class="row">
-			<div class="col-lg-3 col-6 single-blog">
-				<div class="thumb">
-					<img class="img-fluid"
-						src="https://images.unsplash.com/photo-1522069213448-443a614da9b6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1952&q=80"
-						alt="">
+			@php
+					$blogLatestPosts = Post::all();
+			@endphp
+			@foreach ($blogLatestPosts as $post)
+				<div class="col-lg-3 col-6 single-blog">
+					<div class="thumb">
+						<img class="img-fluid"
+							src="{{'/storage/images/'.$post->cover_image}}"
+							alt="">
+					</div>
+					<p class="date">{{date('Y M d', strtotime($post->created_at))}}</p>
+					<a href="{{'blog/'.$post->id}}">
+						<h4>{{$post->title}}</h4>
+					</a>
 				</div>
-				<p class="date">10 Jan 2018</p>
-				<a href="#">
-					<h4>Best Gamification Examples</h4>
-				</a>
-			</div>
-			<div class="col-lg-3 col-6 single-blog">
-				<div class="thumb">
-					<img class="img-fluid"
-						src="https://images.unsplash.com/photo-1493217465235-252dd9c0d632?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80"
-						alt="">
-				</div>
-				<p class="date">10 Jan 2018</p>
-				<a href="#">
-					<h4>Best Gamification Examples</h4>
-				</a>
-			</div>
-			<div class="col-lg-3 col-6 single-blog">
-				<div class="thumb">
-					<img class="img-fluid"
-						src="https://images.unsplash.com/photo-1517164850305-99a3e65bb47e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80"
-						alt="">
-				</div>
-				<p class="date">10 Jan 2018</p>
-				<a href="#">
-					<h4>Best Gamification Examples
-					</h4>
-				</a>
-			</div>
-			<div class="col-lg-3 col-6 single-blog">
-				<div class="thumb">
-					<img class="img-fluid"
-						src="https://images.unsplash.com/photo-1469032923574-4f1413034019?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80"
-						alt="">
-				</div>
-				<p class="date">10 Jan 2018</p>
-				<a href="#">
-					<h4>Best Gamification Examples</h4>
-				</a>
-			</div>
+			@endforeach
 			<div class="col-lg-12 d-flex justify-content-center mt-4">
-				<a href="#" class="primary-btn btn-sm read-more text-uppercase"><strong>Read More</strong></a>
+				<a href="/blog" class="primary-btn btn-sm read-more text-uppercase"><strong>Read More</strong></a>
 			</div>
 		</div>
 	</div>
@@ -468,7 +442,7 @@
 <!-- END BLOG AREA -->
 
 <!-- START HIRE AREA -->
-<section class="hire-area pt-50 pb-50" id="blog">
+<section class="hire-area pt-50 pb-50">
 	<div class="overlay-effect"></div>
 	<div class="container">
 		<div class="row d-flex justify-content-center flex-wrap">
