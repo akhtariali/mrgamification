@@ -12,7 +12,7 @@
 <div class="messages col-8 mx-auto mt-5">
     @include('inc.messages')
 </div>
-<div class="content-page mt-5 d-flex flex-column align-items-center">
+<div class="content-page mt-5 d-flex flex-wrap justify-content-center">
     @foreach ($categories as $category)
         <a href="/categories/{{$category->id}}" class="col-lg-4 type">
             <div class="overlay-effect">
