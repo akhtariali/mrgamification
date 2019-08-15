@@ -16,7 +16,7 @@
                 <h2>{{$post->title}}</h2>
                 <h5>{{$post->secondary_title}}</h5>
                 </a>
-            <i>Posted by <a href="" class="styled-anchor">{{$post->author}}</a>
+            <i>Posted by {{$post->author}}
                 on {{date('Y M d', strtotime($post->created_at))}}
             </i>
             <hr>

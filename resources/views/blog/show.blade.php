@@ -38,7 +38,7 @@
                 $selectedCategory = Category::where('category', $category)->first();
                 $selectedId = $selectedCategory->id;
             @endphp
-            <a href="/blog/categories/{{$selectedId}}">{{$category}}</a>
+            <a href="/categories/{{$selectedId}}">{{$category}}</a>
             @php
             // Does not insert "," after last item
               if(++$i != $numCategories) {
@@ -68,11 +68,8 @@
 </div>
 
 <style>
-    .header-post.header-page {
-        background: url('/storage/images/{{$post->cover_image}}');
-    }
-    .content-page {
-        word-break: break-all;
+    .header-page {
+        background-image: url('/storage/images/{{$post->cover_image}}') !important;
     }
     .content-post strong {
         color: black !important;

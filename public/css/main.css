@@ -3083,6 +3083,7 @@ h6 {
     flex-direction: column;
     background: url(https://images.unsplash.com/photo-1560749605-cebc04c2697c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1567&q=80);
     background-position: center;
+    background-size: cover;
     background-repeat: no-repeat;
 }
 
