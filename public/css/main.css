@@ -15,7 +15,7 @@ html {
     font-weight: 200;
 }
 
-strong {
+.navbar strong {
     color: white;
 }
 
@@ -2437,6 +2437,7 @@ h6 {
 
 .single-blog h4 {
     margin-bottom: 12px;
+    font-size: 20px;
     -webkit-transition: all 0.3s ease 0s;
     -moz-transition: all 0.3s ease 0s;
     -o-transition: all 0.3s ease 0s;
@@ -3080,14 +3081,51 @@ h6 {
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
     background: url(https://images.unsplash.com/photo-1560749605-cebc04c2697c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1567&q=80);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.header-post {
+    height: 70vh
 }
 
 .header-page h1 {
+    font-size: 60px;
+}
+
+.header-page h1,
+.header-page h2 {
+    font-weight: bold;
+}
+
+.header-page h2,
+.header-page h1,
+.header-page h4,
+.header-page i,
+.header-page hr {
     z-index: 3;
     position: relative;
     color: white;
-    font-size: 60px;
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    .header-page h2 {
+        font-size: 30px;
+    }
+}
+
+.header-page hr {
+    background: white;
+    height: .3px;
+    width: 60%;
+}
+
+.header-post i a {
+    color: white;
     font-weight: bolder;
 }
 
@@ -3106,14 +3144,35 @@ h6 {
     z-index: 1;
 }
 
+.header-post .overlay-page {
+    height: 70vh;
+}
+
 .content-page h2 {
     font-weight: bolder;
 }
 
 .content-page p,
 .content-page li,
-.content-page q {
+.content-page blockquote {
     font-size: 20px;
+    font-family: 'Lora',
+        serif;
+}
+
+.content-page blockquote {
+    border-left: solid 2px black;
+    padding-left: 8px;
+    font-style: italic;
+    color: rgb(82, 82, 82);
+}
+
+.post-categories a {
+    color: rgb(82, 82, 82);
+}
+
+.post-buttons .orange:hover {
+    color: white
 }
 
 #contact-us-background.header-page {

@@ -23,10 +23,15 @@ Route::get('/aboutus', function () {
     return view('pages.aboutUs');
 });
 
-Route::get('/contactus', function () {
-    return view('pages.contactUs');
-});
+Route::get('/contactus', [
+    'uses' => 'ContactFormController@create'
+]);
+Route::post('/contactus', [
+    'uses' => 'ContactFormController@store',
+    'as' => 'contactus.store'
+]);
 
-Route::get('/blog', function () {
-    return view('posts.index');
-});
+
+Route::resource('blog', 'BlogController');
+Route::resource('categories', 'CategoriesController');
+Auth::routes();
