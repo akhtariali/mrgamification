@@ -22,7 +22,6 @@ class ContactFormController extends Controller
             $request->message,
             $request->name,
             $request->company_name,
-            $request->email
         ];
         Mail::send('emails.contact', [
             'input' => $contactEmailInput
