@@ -58,8 +58,8 @@
     @if (!Auth::guest())
     <hr>
     <div class="edit-buttons">
-        <a href="/blog/{{$post->id}}/edit" class="btn btn-secondary">Edit</a>
-        {!!Form::open(['action' => ['BlogController@destroy', $post->id], 'method' => 'POST', 'class' => 'd-inline'])!!}
+        <a href="/blog/{{$post->url}}/edit" class="btn btn-secondary">Edit</a>
+        {!!Form::open(['action' => ['BlogController@destroy', $post->url], 'method' => 'POST', 'class' => 'd-inline'])!!}
             {{Form::hidden('_method', 'DELETE')}}
             {{Form::submit('Delete', ['class' => 'btn btn-danger'])}}
         {!!Form::close()!!}

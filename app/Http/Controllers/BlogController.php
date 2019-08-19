@@ -46,7 +46,8 @@ class BlogController extends Controller
             'body' => 'required',
             'categories' => 'required',
             'author' => 'required',
-            'cover_image' => 'required|max:1999'
+            'cover_image' => 'required|max:1999',
+            'url' => 'required | regex:/^[a-zA-Z0-9_]*$/'
         ]);
 
         // Handle File Upload
@@ -69,6 +70,7 @@ class BlogController extends Controller
         $post->body = $request->input('body');
         $post->categories = implode(",", $request->input('categories'));
         $post->author = $request->input('author');
+        $post->url = $request->input('url');
         $post->cover_image = $filenameToStore;
         $post->save();
         
@@ -81,9 +83,9 @@ class BlogController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function show($id)
+    public function show($url)
     {
-        $post = Post::find($id);
+        $post = Post::where('url', $url)->take(1)->get()[0]; 
         // Creates an array of post categories, and replaces " " with "-" in categories
         $post->categories = explode(",", $post->categories);
         //
@@ -97,9 +99,9 @@ class BlogController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function edit($id)
+    public function edit($url)
     {
-        $post = Post::find($id);
+        $post = Post::where('url', $url)->take(1)->get()[0]; 
         return view('blog.edit')->with('post', $post);
     }
 
@@ -110,7 +112,7 @@ class BlogController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, $id)
+    public function update(Request $request, $url)
     {
         $this->validate($request, [
             'title' => 'required',
@@ -133,7 +135,7 @@ class BlogController extends Controller
             $path = $request->file('cover_image')->storeAs('public/images', $filenameToStore);
         }
 
-        $post = Post::find($id);
+        $post = Post::where('url', $url)->take(1)->get()[0]; 
         // Creates an array of post categories, and replaces " " with "-" in categories
         $post->categories = str_replace(" ","-", explode(",", $post->categories));
         // Update Post
@@ -157,9 +159,9 @@ class BlogController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function destroy($id)
+    public function destroy($url)
     {
-        $post = Post::find($id);
+        $post = Post::where('url', $url)->take(1)->get()[0]; 
         Storage::delete('public/images/'.$post->cover_image);
         $post->delete();
 
