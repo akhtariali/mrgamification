@@ -48,11 +48,17 @@
         @endforeach
     </div>
     <div class="post-buttons d-flex mt-5">
-        @if (Post::find($post->id + 1))
-            <a href="/blog/{{$post->id - 1}}" class="btn primary-btn orange mr-auto font-weight-normal">Previous</a>
+        @if (Post::find($post->id - 1))
+            @php
+                $previousPost = Post::find($post->id - 1);
+            @endphp
+            <a href="/blog/{{$previousPost->url}}" class="btn primary-btn orange mr-auto font-weight-normal">Previous Post</a>
         @endif
         @if (Post::find($post->id + 1))
-            <a href="/blog/{{$post->id + 1}}" class="btn primary-btn orange ml-auto font-weight-normal">Next</a>
+            @php
+                $nextPost = Post::find($post->id + 1);
+            @endphp
+            <a href="/blog/{{$nextPost->url}}" class="btn primary-btn orange ml-auto font-weight-normal">Next Post</a>
         @endif
     </div>
     @if (!Auth::guest())
