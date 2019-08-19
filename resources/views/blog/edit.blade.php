@@ -10,7 +10,7 @@
     @include('inc.messages')
 </div>
 <div class="content-page mt-5 col-10 mx-auto">
-    {!! Form::open(['action' => ['BlogController@update', $post->id], 'method' => 'POST', 'enctype' => "multipart/form-data"]) !!}
+    {!! Form::open(['action' => ['BlogController@update', $post->url], 'method' => 'POST', 'enctype' => "multipart/form-data"]) !!}
         <div class="form-group">
             {{Form::label('title', 'Title')}}
             {{Form::text('title', $post->title, ['class' => 'form-control', 'placeholder' => 'Enter Title Here...'])}}
