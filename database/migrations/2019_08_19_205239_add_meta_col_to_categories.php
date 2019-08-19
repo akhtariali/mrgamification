@@ -4,7 +4,7 @@ use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class AddPostCategories extends Migration
+class AddMetaColToCategories extends Migration
 {
     /**
      * Run the migrations.
@@ -13,12 +13,9 @@ class AddPostCategories extends Migration
      */
     public function up()
     {
-        Schema::create('categories', function (Blueprint $table) {
-            $table->bigIncrements('id');
-            $table->string('category');
-            $table->timestamps();
+        Schema::table('categories', function (Blueprint $table) {
+            $table->string('meta');
         });
-
     }
 
     /**
@@ -28,6 +25,8 @@ class AddPostCategories extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('categories');
+        Schema::table('categories', function (Blueprint $table) {
+            $table->dropColumn('meta');
+        });
     }
 }

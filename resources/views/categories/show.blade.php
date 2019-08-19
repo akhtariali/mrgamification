@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('title', $category->category)
-
+@section('meta', $category->meta)
 @section('main-content')
 <div class="header-page header-post"
     style="">
@@ -9,7 +9,7 @@
     <h2 class="text-center px-5 mt-3">{{$category->category}}</h2>
     @if (!Auth::guest())
         <hr>
-        {!!Form::open(['action' => ['CategoriesController@destroy', $category->id], 'method' => 'POST', 'class' => 'btn-delete'])!!}
+        {!!Form::open(['action' => ['CategoriesController@destroy', $category->url], 'method' => 'POST', 'class' => 'btn-delete'])!!}
             {{Form::hidden('_method', 'DELETE')}}
             {{Form::submit('Delete', ['class' => 'btn btn-danger'])}}
         {!!Form::close()!!}
@@ -18,7 +18,7 @@
 <div class="content-page mt-5 d-flex flex-column align-items-center">
     @foreach ($posts as $post)
         <div class="single-post col-8">
-        <a href="/blog/{{$post->id}}" style="color: black;">
+        <a href="/blog/{{$post->url}}" style="color: black;">
                 <h2>{{$post->title}}</h2>
                 <h5>{{$post->secondary_title}}</h5>
                 </a>

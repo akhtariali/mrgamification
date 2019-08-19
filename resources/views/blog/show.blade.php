@@ -5,7 +5,8 @@
 @extends('layouts.app')
 
 @section('title', $post->title)
-
+@section('meta', $post->meta)
+@section('author', $post->author)
 @section('main-content')
 <div class="header-page header-post"
     style="">
@@ -36,9 +37,9 @@
                 // Finds the category in Category Model and sets its ID to $selectedId, which will be used
                 // in routing in the next anchor
                 $selectedCategory = Category::where('category', $category)->first();
-                $selectedId = $selectedCategory->id;
+                $selectedURL = $selectedCategory->url;
             @endphp
-            <a href="/categories/{{$selectedId}}">{{$category}}</a>
+            <a href="/categories/{{$selectedURL}}">{{$category}}</a>
             @php
             // Does not insert "," after last item
               if(++$i != $numCategories) {
@@ -48,18 +49,24 @@
         @endforeach
     </div>
     <div class="post-buttons d-flex mt-5">
-        @if (Post::find($post->id + 1))
-            <a href="/blog/{{$post->id - 1}}" class="btn primary-btn orange mr-auto font-weight-normal">Previous</a>
+        @if (Post::find($post->id - 1))
+            @php
+                $previousPost = Post::find($post->id - 1);
+            @endphp
+            <a href="/blog/{{$previousPost->url}}" class="btn primary-btn orange mr-auto font-weight-normal">Previous Post</a>
         @endif
         @if (Post::find($post->id + 1))
-            <a href="/blog/{{$post->id + 1}}" class="btn primary-btn orange ml-auto font-weight-normal">Next</a>
+            @php
+                $nextPost = Post::find($post->id + 1);
+            @endphp
+            <a href="/blog/{{$nextPost->url}}" class="btn primary-btn orange ml-auto font-weight-normal">Next Post</a>
         @endif
     </div>
     @if (!Auth::guest())
     <hr>
     <div class="edit-buttons">
-        <a href="/blog/{{$post->id}}/edit" class="btn btn-secondary">Edit</a>
-        {!!Form::open(['action' => ['BlogController@destroy', $post->id], 'method' => 'POST', 'class' => 'd-inline'])!!}
+        <a href="/blog/{{$post->url}}/edit" class="btn btn-secondary">Edit</a>
+        {!!Form::open(['action' => ['BlogController@destroy', $post->url], 'method' => 'POST', 'class' => 'd-inline'])!!}
             {{Form::hidden('_method', 'DELETE')}}
             {{Form::submit('Delete', ['class' => 'btn btn-danger'])}}
         {!!Form::close()!!}

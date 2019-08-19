@@ -6,9 +6,7 @@
     <h2 class="text-center px-5 mt-3">Create Post</h2>
     <h4 class="text-center px-5 font-weight-light">Write Something Awesome Today...</h4>
 </div>
-<div class="messages col-8 mx-auto">
-    @include('inc.messages')
-</div>
+@include('inc.messages')
 <div class="content-page mt-5 col-10 mx-auto">
     {!! Form::open(['action' => 'BlogController@store', 'method' => 'POST','enctype' => "multipart/form-data"]) !!}
         <div class="form-group">
@@ -18,6 +16,14 @@
         <div class="form-group">
             {{Form::label('secondary_title', 'Secondary Title')}}
             {{Form::text('secondary_title', '', ['class' => 'form-control', 'placeholder' => 'Enter Secondary Title Here...'])}}
+        </div>
+        <div class="form-group">
+            {{Form::label('url', 'URL')}}
+            {{Form::text('url', '', ['class' => 'form-control', 'placeholder' => 'Enter URL Here...'])}}
+        </div>
+        <div class="form-group">
+            {{Form::label('meta', 'Meta Description')}}
+            {{Form::textarea('meta', '', ['class' => 'form-control', 'rows' => 3, 'placeholder' => 'Enter Meta Description Here...'])}}
         </div>
         <div class="form-group">
             {{Form::label('body', 'Body')}}

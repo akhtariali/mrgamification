@@ -45,7 +45,9 @@ class CategoriesController extends Controller
     {
         $this->validate($request, [
             'category' => 'required',
-            'category_image' => 'required|max:1999'
+            'meta' => 'required',
+            'category_image' => 'required|max:1999',
+            'url' => 'required|regex:/^[a-zA-Z0-9_]*$/|unique:categories',
         ]);
         // CHECKS IF CATEGORY ALREADY EXISTS IN TABLE
         $oldCategory = Category::where('category', $request->input('category'))->first();
@@ -66,6 +68,8 @@ class CategoriesController extends Controller
 
             $category = new Category;
             $category->category = $request->input('category');
+            $category->url = $request->input('url');
+            $category->meta = $request->input('meta');
             $category->category_image = $filenameToStore;
             $category->save();
             return redirect('/categories')->with('success', 'Category has been created!');
@@ -78,35 +82,13 @@ class CategoriesController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function show($id)
+    public function show($url)
     {
-        $category = Category::find($id);
+        $category = Category::where('url', $url)->take(1)->get()[0]; 
         $posts = Post::where('categories', 'like', '%'.$category->category.'%')->orderby('created_at', 'desc')->paginate(10);
         return view('categories.show')->with('category', $category)->with('posts', $posts);
     }
 
-    /**
-     * Show the form for editing the specified resource.
-     *
-     * @param  int  $id
-     * @return \Illuminate\Http\Response
-     */
-    public function edit($id)
-    {
-        //
-    }
-
-    /**
-     * Update the specified resource in storage.
-     *
-     * @param  \Illuminate\Http\Request  $request
-     * @param  int  $id
-     * @return \Illuminate\Http\Response
-     */
-    public function update(Request $request, $id)
-    {
-        //
-    }
 
     /**
      * Remove the specified resource from storage.
@@ -114,9 +96,9 @@ class CategoriesController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function destroy($id)
+    public function destroy($url)
     {
-        $category = Category::find($id);
+        $category = Category::where('url', $url)->take(1)->get()[0]; 
         Storage::delete('public/images/'.$category->category_image);
         $category->delete();
 

@@ -3,11 +3,13 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content=@yield('meta', "Mr. Gamification")>
+    <meta name="author" content=@yield('author', 'Ali Akhtari')>
 
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>Mr. Gamification | @yield('title')</title>
+    <title> @yield('title') | Mr. Gamification</title>
 
     <!-- Fonts -->
     <link rel="dns-prefetch" href="//fonts.gstatic.com">

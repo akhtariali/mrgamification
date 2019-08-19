@@ -9,12 +9,10 @@
     <div class="overlay-page"></div>
     <h1>CATEGORIES</h1>
 </div>
-<div class="messages col-8 mx-auto mt-5">
-    @include('inc.messages')
-</div>
+@include('inc.messages')
 <div class="content-page col-11 mx-auto mt-5 d-flex flex-wrap justify-content-center">
     @foreach ($categories as $category)
-        <a href="/categories/{{$category->id}}" class="col-lg-4 type">
+        <a href="/categories/{{$category->url}}" class="col-lg-4 type">
             <div class="overlay-effect">
                 <h2 class="font-weight-normal">{{$category->category}}</h2>
             </div>

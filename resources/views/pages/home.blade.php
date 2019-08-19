@@ -174,7 +174,7 @@
 					<h2 class="mb-10">Mr. Gamification Solution Types</h2>
 				</div>
 			</div>
-			<a href="/categories/4" class="col-lg-4 type">
+			<a href="/categories/workplace_gamification" class="col-lg-4 type">
 				<div class="overlay-effect">
 					<h2>Workplace Gamification</h2>
 				</div>
@@ -182,35 +182,35 @@
 				<img src="https://images.unsplash.com/photo-1516681859000-292df1ed3e83?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80"
 					alt="" class="img img-fluid">
 			</a>
-			<a href="/categories/5" class="col-lg-4 type">
+			<a href="/categories/ux_design" class="col-lg-4 type">
 				<div class="overlay-effect red-overlay">
 					<h2>User Experience</h2>
 				</div>
 				<img src="https://images.unsplash.com/photo-1460066122679-741dd6c4ad37?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1920&q=80"
 					alt="" class="img img-fluid">
 			</a>
-			<a href="/categories/6" class="col-lg-4 type">
+			<a href="/categories/gamified_apps" class="col-lg-4 type">
 				<div class="overlay-effect">
 					<h2>Gamified Apps</h2>
 				</div>
 				<img src="https://cdn.thewirecutter.com/wp-content/uploads/2019/07/500-laptops-2019-lowres-6391-570x380.jpg"
 					alt="" class="img img-fluid">
 			</a>
-			<a href="/categories/7" class="col-lg-4 type">
+			<a href="/categories/gamification_in_education" class="col-lg-4 type">
 				<div class="overlay-effect">
 					<h2>Gamification in Education</h2>
 				</div>
 				<img src="https://images.unsplash.com/photo-1504169448388-60f322bebb2c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80"
 					alt="" class="img img-fluid">
 			</a>
-			<a href="/categories/8" class="col-lg-4 type">
+			<a href="/categories/lifestyle_gamification" class="col-lg-4 type">
 				<div class="overlay-effect red-overlay">
 					<h2>Lifestyle Gamification</h2>
 				</div>
 				<img src="https://images.unsplash.com/photo-1491438590914-bc09fcaaf77a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80"
 					alt="" class="img img-fluid">
 			</a>
-			<a href="/categories/9" class="col-lg-4 type">
+			<a href="/categories/marketing_campaigns" class="col-lg-4 type">
 				<div class="overlay-effect">
 					<h2>Marketing Campaigns</h2>
 				</div>
@@ -226,7 +226,7 @@
 	<div class="container">
 		<div class="row justify-content-center mb-50">
 			<div class="col-lg-10 text-center">
-				<h2>Mr. Gamification Clients</h2>
+				<h2>Mr. Gamification Has Worked With</h2>
 			</div>
 			<div class="clients d-flex justify-content-center flex-wrap px-5">
 				<div class="col-4 col-md-2">
@@ -286,10 +286,6 @@
 						class="client-logo img-responsive img-fluid">
 				</div>
 				<div class="col-4 col-md-2">
-					<img src="https://www.irangi.org/uploads/images/4_1560089256_1291127534.png"
-						class="client-logo img-responsive img-fluid" style="width: 80%;">
-				</div>
-				<div class="col-4 col-md-2">
 					<img src="https://storage.irantalent.com/employer-logo/employer_logo_8135_200117.jpeg"
 						class="client-logo img-responsive img-fluid">
 				</div>
@@ -299,6 +295,60 @@
 				</div>
 				<div class="col-4 col-md-2">
 					<img src="./images/Northern13.png" class="client-logo img-responsive img-fluid">
+				</div>
+				<div class="col-4 col-md-2">
+					<img src="http://webs.ce.sharif.edu/~eetesami/wp-content/uploads/cropped-sharif-logo.png" class="client-logo img-responsive img-fluid">
+				</div>
+				<div class="col-lg-12 text-center" style='margin-top: 150px;'>
+					<h2>Mr. Gamification Has Speaked At</h2>
+				</div>
+				<div class="col-4 col-md-2">
+					<img src="https://www.irangi.org/uploads/images/4_1560089256_1291127534.png"
+						class="client-logo img-responsive img-fluid" style='width: 80%;'>
+				</div>
+				<div class="col-4 col-md-2">
+					<img src="https://www.iau-hesd.net/sites/default/files/styles/univ_205/public/universites/tums_signature_variation_1_blue.png?itok=lkP9rmMC"
+						class="client-logo img-responsive img-fluid" style="width: 80%;">
+				</div>
+				<div class="col-4 col-md-2">
+					<img src="https://upload.wikimedia.org/wikipedia/en/thumb/2/2a/Imam_Sadiq_University.svg/1200px-Imam_Sadiq_University.svg.png"
+						class="client-logo img-responsive img-fluid">
+				</div>
+				<div class="col-4 col-md-2">
+					<img src="http://pgc2019.shahroodut.ac.ir/files_site/sponsorfn_pic/r_29_180615142152.png"
+						class="client-logo img-responsive img-fluid">
+				</div>
+				<div class="col-4 col-md-2">
+					<img src="https://ut.ac.ir/images/www/en/website/site-logo/2018/1518613180-ut-en.png"
+						class="client-logo img-responsive img-fluid" style="width: 80%;">
+				</div>
+				<div class="col-4 col-md-2">
+					<img src="https://mgou.ru/wp-content/uploads/2018/03/1.jpg-347x350.png"
+						class="client-logo img-responsive img-fluid">
+				</div>
+				<div class="col-4 col-md-2">
+					<img src="https://www.tt.th-koeln.de/cnrd-network/files/2017/12/uni.png"
+						class="client-logo img-responsive img-fluid" style="width: 80%;">
+				</div>
+				<div class="col-4 col-md-2">
+					<img src="https://i1.rgstatic.net/ii/institution.image/AS%3A267466503065610%401440780391994_l"
+						class="client-logo img-responsive img-fluid">
+				</div>
+				<div class="col-4 col-md-2">
+					<img src="http://nopahub.com/storage/cache/Fit_200_auto/ecosystem/axell1.png"
+						class="client-logo img-responsive img-fluid" style="width: 80%;">
+				</div>
+				<div class="col-4 col-md-2">
+					<img src="https://photos.prnewswire.com/prnfull/20160428/361090LOGO"
+						class="client-logo img-responsive img-fluid" style="width: 80%;">
+				</div>
+				<div class="col-4 col-md-2">
+					<img src="http://en.um.ac.ir/content/themes/EngNewTheme/images/footer-logo.png"
+						class="client-logo img-responsive img-fluid" style="width: 95%;">
+				</div>
+				<div class="col-4 col-md-2">
+					<img src="http://skstp.ir/files/centers/cn25/skstp_enlogo129.png"
+						class="client-logo img-responsive img-fluid" style="width: 85%;">
 				</div>
 
 			</div>
@@ -428,7 +478,7 @@
 							alt="">
 					</div>
 					<p class="date">{{date('Y M d', strtotime($post->created_at))}}</p>
-					<a href="{{'blog/'.$post->id}}">
+					<a href="{{'blog/'.$post->url}}">
 						<h4>{{$post->title}}</h4>
 					</a>
 				</div>
