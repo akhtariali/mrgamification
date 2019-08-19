@@ -118,7 +118,8 @@ class BlogController extends Controller
             'title' => 'required',
             'body' => 'required',
             'categories' => 'required',
-            'author' => 'required'
+            'author' => 'required',
+            'url' => 'required | regex:/^[a-zA-Z0-9_]*$/'
         ]);
 
         if($request->hasFile('cover_image')){
@@ -143,6 +144,7 @@ class BlogController extends Controller
         $post->secondary_title = $request->input('secondary_title');
         $post->body = $request->input('body');
         $post->categories = $request->input('categories');
+        $post->url = $request->input('url');
         $post->author = $request->input('author');
         if($request->hasFile('cover_image')){
             $post->cover_image = $filenameToStore;
