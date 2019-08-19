@@ -6,9 +6,7 @@
     <div class="overlay-page"></div>
     <h1>BLOG</h1>
 </div>
-<div class="messages col-8 mx-auto mt-5">
-    @include('inc.messages')
-</div>
+@include('inc.messages')
 <div class="content-page mt-5 d-flex flex-column align-items-center">
     @foreach ($posts as $post)
         <div class="single-post col-8">

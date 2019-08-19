@@ -6,9 +6,7 @@
     <h2 class="text-center px-5 mt-3">Create Post</h2>
     <h4 class="text-center px-5 font-weight-light">Write Something Awesome Today...</h4>
 </div>
-<div class="messages col-8 mx-auto">
-    @include('inc.messages')
-</div>
+@include('inc.messages')
 <div class="content-page mt-5 col-10 mx-auto">
     {!! Form::open(['action' => 'BlogController@store', 'method' => 'POST','enctype' => "multipart/form-data"]) !!}
         <div class="form-group">
