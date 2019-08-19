@@ -22,6 +22,10 @@
             {{Form::text('url', '', ['class' => 'form-control', 'placeholder' => 'Enter URL Here...'])}}
         </div>
         <div class="form-group">
+            {{Form::label('meta', 'Meta Description')}}
+            {{Form::textarea('meta', '', ['class' => 'form-control', 'rows' => 3, 'placeholder' => 'Enter Meta Description Here...'])}}
+        </div>
+        <div class="form-group">
             {{Form::label('body', 'Body')}}
             {{Form::textarea('body', '', ['id' => 'article-ckeditor', 'class' => 'form-control', 'placeholder' => 'Enter Post Body Here...'])}}
         </div>

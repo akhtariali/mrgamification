@@ -47,7 +47,8 @@ class BlogController extends Controller
             'categories' => 'required',
             'author' => 'required',
             'cover_image' => 'required|max:1999',
-            'url' => 'required | regex:/^[a-zA-Z0-9_]*$/'
+            'url' => 'required | regex:/^[a-zA-Z0-9_]*$/',
+            'meta' => 'required',
         ]);
 
         // Handle File Upload
@@ -71,6 +72,7 @@ class BlogController extends Controller
         $post->categories = implode(",", $request->input('categories'));
         $post->author = $request->input('author');
         $post->url = $request->input('url');
+        $post->meta = $request->input('meta');
         $post->cover_image = $filenameToStore;
         $post->save();
         
@@ -119,7 +121,8 @@ class BlogController extends Controller
             'body' => 'required',
             'categories' => 'required',
             'author' => 'required',
-            'url' => 'required | regex:/^[a-zA-Z0-9_]*$/'
+            'url' => 'required | regex:/^[a-zA-Z0-9_]*$/',
+            'meta' => 'required'
         ]);
 
         if($request->hasFile('cover_image')){
@@ -146,6 +149,7 @@ class BlogController extends Controller
         $post->categories = $request->input('categories');
         $post->url = $request->input('url');
         $post->author = $request->input('author');
+        $post->meta = $request->input('meta');
         if($request->hasFile('cover_image')){
             $post->cover_image = $filenameToStore;
         }

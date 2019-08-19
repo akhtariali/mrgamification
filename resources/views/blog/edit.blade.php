@@ -20,6 +20,10 @@
             {{Form::text('secondary_title', $post->secondary_title, ['class' => 'form-control', 'placeholder' => 'Enter Secondary Title Here...'])}}
         </div>
         <div class="form-group">
+            {{Form::label('meta', 'Meta Description')}}
+            {{Form::text('meta', $post->meta, ['class' => 'form-control', 'placeholder' => 'Enter Meta Description Here...'])}}
+        </div>
+        <div class="form-group">
             {{Form::label('body', 'Body')}}
             {{Form::textarea('body', $post->body, ['id' => 'article-ckeditor', 'class' => 'form-control', 'placeholder' => 'Enter Post Body Here...'])}}
         </div>

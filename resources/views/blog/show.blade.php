@@ -5,7 +5,9 @@
 @extends('layouts.app')
 
 @section('title', $post->title)
-
+@section('meta')
+    
+@endsection
 @section('main-content')
 <div class="header-page header-post"
     style="">
