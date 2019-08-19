@@ -47,7 +47,7 @@ class BlogController extends Controller
             'categories' => 'required',
             'author' => 'required',
             'cover_image' => 'required|max:1999',
-            'url' => 'required | regex:/^[a-zA-Z0-9_]*$/',
+            'url' => 'required|unique:posts|regex:/^[a-zA-Z0-9_]*$/',
             'meta' => 'required',
         ]);
 
@@ -121,7 +121,6 @@ class BlogController extends Controller
             'body' => 'required',
             'categories' => 'required',
             'author' => 'required',
-            'url' => 'required | regex:/^[a-zA-Z0-9_]*$/',
             'meta' => 'required'
         ]);
 
@@ -147,7 +146,6 @@ class BlogController extends Controller
         $post->secondary_title = $request->input('secondary_title');
         $post->body = $request->input('body');
         $post->categories = $request->input('categories');
-        $post->url = $request->input('url');
         $post->author = $request->input('author');
         $post->meta = $request->input('meta');
         if($request->hasFile('cover_image')){

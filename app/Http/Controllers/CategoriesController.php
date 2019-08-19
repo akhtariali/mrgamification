@@ -47,7 +47,7 @@ class CategoriesController extends Controller
             'category' => 'required',
             'meta' => 'required',
             'category_image' => 'required|max:1999',
-            'url' => 'required | regex:/^[a-zA-Z0-9_]*$/'
+            'url' => 'required|regex:/^[a-zA-Z0-9_]*$/|unique:categories',
         ]);
         // CHECKS IF CATEGORY ALREADY EXISTS IN TABLE
         $oldCategory = Category::where('category', $request->input('category'))->first();
