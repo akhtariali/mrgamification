@@ -45,6 +45,7 @@ class CategoriesController extends Controller
     {
         $this->validate($request, [
             'category' => 'required',
+            'meta' => 'required',
             'category_image' => 'required|max:1999',
             'url' => 'required | regex:/^[a-zA-Z0-9_]*$/'
         ]);
@@ -68,6 +69,7 @@ class CategoriesController extends Controller
             $category = new Category;
             $category->category = $request->input('category');
             $category->url = $request->input('url');
+            $category->meta = $request->input('meta');
             $category->category_image = $filenameToStore;
             $category->save();
             return redirect('/categories')->with('success', 'Category has been created!');

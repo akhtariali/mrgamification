@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('title', $category->category)
-
+@section('meta', $category->meta)
 @section('main-content')
 <div class="header-page header-post"
     style="">
