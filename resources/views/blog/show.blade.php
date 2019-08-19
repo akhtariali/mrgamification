@@ -6,7 +6,7 @@
 
 @section('title', $post->title)
 @section('meta')
-    
+{{$post->meta}}
 @endsection
 @section('main-content')
 <div class="header-page header-post"
