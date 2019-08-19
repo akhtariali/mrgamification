@@ -36,9 +36,9 @@
                 // Finds the category in Category Model and sets its ID to $selectedId, which will be used
                 // in routing in the next anchor
                 $selectedCategory = Category::where('category', $category)->first();
-                $selectedId = $selectedCategory->id;
+                $selectedURL = $selectedCategory->url;
             @endphp
-            <a href="/categories/{{$selectedId}}">{{$category}}</a>
+            <a href="/categories/{{$selectedURL}}">{{$category}}</a>
             @php
             // Does not insert "," after last item
               if(++$i != $numCategories) {

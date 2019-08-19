@@ -174,7 +174,7 @@
 					<h2 class="mb-10">Mr. Gamification Solution Types</h2>
 				</div>
 			</div>
-			<a href="/categories/4" class="col-lg-4 type">
+			<a href="/categories/workplace_gamification" class="col-lg-4 type">
 				<div class="overlay-effect">
 					<h2>Workplace Gamification</h2>
 				</div>
@@ -182,35 +182,35 @@
 				<img src="https://images.unsplash.com/photo-1516681859000-292df1ed3e83?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80"
 					alt="" class="img img-fluid">
 			</a>
-			<a href="/categories/5" class="col-lg-4 type">
+			<a href="/categories/ux_design" class="col-lg-4 type">
 				<div class="overlay-effect red-overlay">
 					<h2>User Experience</h2>
 				</div>
 				<img src="https://images.unsplash.com/photo-1460066122679-741dd6c4ad37?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1920&q=80"
 					alt="" class="img img-fluid">
 			</a>
-			<a href="/categories/6" class="col-lg-4 type">
+			<a href="/categories/gamified_apps" class="col-lg-4 type">
 				<div class="overlay-effect">
 					<h2>Gamified Apps</h2>
 				</div>
 				<img src="https://cdn.thewirecutter.com/wp-content/uploads/2019/07/500-laptops-2019-lowres-6391-570x380.jpg"
 					alt="" class="img img-fluid">
 			</a>
-			<a href="/categories/7" class="col-lg-4 type">
+			<a href="/categories/gamification_in_education" class="col-lg-4 type">
 				<div class="overlay-effect">
 					<h2>Gamification in Education</h2>
 				</div>
 				<img src="https://images.unsplash.com/photo-1504169448388-60f322bebb2c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80"
 					alt="" class="img img-fluid">
 			</a>
-			<a href="/categories/8" class="col-lg-4 type">
+			<a href="/categories/lifestyle_gamification" class="col-lg-4 type">
 				<div class="overlay-effect red-overlay">
 					<h2>Lifestyle Gamification</h2>
 				</div>
 				<img src="https://images.unsplash.com/photo-1491438590914-bc09fcaaf77a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80"
 					alt="" class="img img-fluid">
 			</a>
-			<a href="/categories/9" class="col-lg-4 type">
+			<a href="/categories/marketing_campaigns" class="col-lg-4 type">
 				<div class="overlay-effect">
 					<h2>Marketing Campaigns</h2>
 				</div>
