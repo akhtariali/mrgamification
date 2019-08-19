@@ -9,7 +9,7 @@
     <h2 class="text-center px-5 mt-3">{{$category->category}}</h2>
     @if (!Auth::guest())
         <hr>
-        {!!Form::open(['action' => ['CategoriesController@destroy', $category->id], 'method' => 'POST', 'class' => 'btn-delete'])!!}
+        {!!Form::open(['action' => ['CategoriesController@destroy', $category->url], 'method' => 'POST', 'class' => 'btn-delete'])!!}
             {{Form::hidden('_method', 'DELETE')}}
             {{Form::submit('Delete', ['class' => 'btn btn-danger'])}}
         {!!Form::close()!!}
