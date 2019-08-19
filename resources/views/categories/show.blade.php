@@ -18,7 +18,7 @@
 <div class="content-page mt-5 d-flex flex-column align-items-center">
     @foreach ($posts as $post)
         <div class="single-post col-8">
-        <a href="/blog/{{$post->id}}" style="color: black;">
+        <a href="/blog/{{$post->url}}" style="color: black;">
                 <h2>{{$post->title}}</h2>
                 <h5>{{$post->secondary_title}}</h5>
                 </a>

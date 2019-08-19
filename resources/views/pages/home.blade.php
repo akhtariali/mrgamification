@@ -428,7 +428,7 @@
 							alt="">
 					</div>
 					<p class="date">{{date('Y M d', strtotime($post->created_at))}}</p>
-					<a href="{{'blog/'.$post->id}}">
+					<a href="{{'blog/'.$post->url}}">
 						<h4>{{$post->title}}</h4>
 					</a>
 				</div>
