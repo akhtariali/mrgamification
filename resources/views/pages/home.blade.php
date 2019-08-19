@@ -226,7 +226,7 @@
 	<div class="container">
 		<div class="row justify-content-center mb-50">
 			<div class="col-lg-10 text-center">
-				<h2>Mr. Gamification Clients</h2>
+				<h2>Mr. Gamification Has Worked With</h2>
 			</div>
 			<div class="clients d-flex justify-content-center flex-wrap px-5">
 				<div class="col-4 col-md-2">
@@ -286,10 +286,6 @@
 						class="client-logo img-responsive img-fluid">
 				</div>
 				<div class="col-4 col-md-2">
-					<img src="https://www.irangi.org/uploads/images/4_1560089256_1291127534.png"
-						class="client-logo img-responsive img-fluid" style="width: 80%;">
-				</div>
-				<div class="col-4 col-md-2">
 					<img src="https://storage.irantalent.com/employer-logo/employer_logo_8135_200117.jpeg"
 						class="client-logo img-responsive img-fluid">
 				</div>
@@ -299,6 +295,60 @@
 				</div>
 				<div class="col-4 col-md-2">
 					<img src="./images/Northern13.png" class="client-logo img-responsive img-fluid">
+				</div>
+				<div class="col-4 col-md-2">
+					<img src="http://webs.ce.sharif.edu/~eetesami/wp-content/uploads/cropped-sharif-logo.png" class="client-logo img-responsive img-fluid">
+				</div>
+				<div class="col-lg-12 text-center" style='margin-top: 150px;'>
+					<h2>Mr. Gamification Has Speaked At</h2>
+				</div>
+				<div class="col-4 col-md-2">
+					<img src="https://www.irangi.org/uploads/images/4_1560089256_1291127534.png"
+						class="client-logo img-responsive img-fluid" style='width: 80%;'>
+				</div>
+				<div class="col-4 col-md-2">
+					<img src="https://www.iau-hesd.net/sites/default/files/styles/univ_205/public/universites/tums_signature_variation_1_blue.png?itok=lkP9rmMC"
+						class="client-logo img-responsive img-fluid" style="width: 80%;">
+				</div>
+				<div class="col-4 col-md-2">
+					<img src="https://upload.wikimedia.org/wikipedia/en/thumb/2/2a/Imam_Sadiq_University.svg/1200px-Imam_Sadiq_University.svg.png"
+						class="client-logo img-responsive img-fluid">
+				</div>
+				<div class="col-4 col-md-2">
+					<img src="http://pgc2019.shahroodut.ac.ir/files_site/sponsorfn_pic/r_29_180615142152.png"
+						class="client-logo img-responsive img-fluid">
+				</div>
+				<div class="col-4 col-md-2">
+					<img src="https://ut.ac.ir/images/www/en/website/site-logo/2018/1518613180-ut-en.png"
+						class="client-logo img-responsive img-fluid" style="width: 80%;">
+				</div>
+				<div class="col-4 col-md-2">
+					<img src="https://mgou.ru/wp-content/uploads/2018/03/1.jpg-347x350.png"
+						class="client-logo img-responsive img-fluid">
+				</div>
+				<div class="col-4 col-md-2">
+					<img src="https://www.tt.th-koeln.de/cnrd-network/files/2017/12/uni.png"
+						class="client-logo img-responsive img-fluid" style="width: 80%;">
+				</div>
+				<div class="col-4 col-md-2">
+					<img src="https://i1.rgstatic.net/ii/institution.image/AS%3A267466503065610%401440780391994_l"
+						class="client-logo img-responsive img-fluid">
+				</div>
+				<div class="col-4 col-md-2">
+					<img src="http://nopahub.com/storage/cache/Fit_200_auto/ecosystem/axell1.png"
+						class="client-logo img-responsive img-fluid" style="width: 80%;">
+				</div>
+				<div class="col-4 col-md-2">
+					<img src="https://photos.prnewswire.com/prnfull/20160428/361090LOGO"
+						class="client-logo img-responsive img-fluid" style="width: 80%;">
+				</div>
+				<div class="col-4 col-md-2">
+					<img src="http://en.um.ac.ir/content/themes/EngNewTheme/images/footer-logo.png"
+						class="client-logo img-responsive img-fluid" style="width: 95%;">
+				</div>
+				<div class="col-4 col-md-2">
+					<img src="http://skstp.ir/files/centers/cn25/skstp_enlogo129.png"
+						class="client-logo img-responsive img-fluid" style="width: 85%;">
 				</div>
 
 			</div>
