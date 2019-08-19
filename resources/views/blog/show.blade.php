@@ -5,9 +5,8 @@
 @extends('layouts.app')
 
 @section('title', $post->title)
-@section('meta')
-{{$post->meta}}
-@endsection
+@section('meta', $post->meta)
+@section('author', $post->author)
 @section('main-content')
 <div class="header-page header-post"
     style="">
