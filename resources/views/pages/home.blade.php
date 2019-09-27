@@ -468,7 +468,7 @@
 		</div>
 		<div class="row">
 			@php
-					$blogLatestPosts = Post::all();
+					$blogLatestPosts = Post::all()->take(4);
 			@endphp
 			@foreach ($blogLatestPosts as $post)
 				<div class="col-lg-3 col-6 single-blog">
