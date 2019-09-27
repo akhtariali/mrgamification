@@ -11,7 +11,6 @@ integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7
 </head>
 
 <footer class="footer-area">
-	<hr>
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-5 col-md-6 col-sm-6">

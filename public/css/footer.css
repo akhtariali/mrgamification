@@ -1,9 +1,7 @@
-hr {
-    width: 100%;
-}
-
 .footer-area {
-    padding-top: 100px;
+    padding-top: 30px;
+    border-top: 1px solid gray;
+    margin-top: 0;
     background-color: #fff;
 }
 
@@ -15,7 +13,7 @@ hr {
 
 .copy-right-text i,
 .copy-right-text a {
-    color: #FF9600;
+    color: #ff9600;
 }
 
 .footer-social a {
@@ -27,7 +25,7 @@ hr {
 }
 
 .footer-social a:hover i {
-    color: #FF9600;
+    color: #ff9600;
 }
 
 .footer-social i {
@@ -61,7 +59,7 @@ hr {
 }
 
 .single-footer-widget .bb-btn {
-    color: #FF9600;
+    color: #ff9600;
     color: #fff;
     font-weight: 300;
     border-radius: 0;
@@ -77,7 +75,7 @@ hr {
 }
 
 .single-footer-widget .info.valid {
-    color: #FF9600;
+    color: #ff9600;
 }
 
 .single-footer-widget .info.error {
@@ -85,7 +83,7 @@ hr {
 }
 
 .single-footer-widget .click-btn {
-    background-color: #FF9600;
+    background-color: #ff9600;
     color: #fff;
     border-radius: 0;
     border-top-left-radius: 0px;
@@ -155,5 +153,5 @@ hr {
 
 .footer-text a,
 .footer-text i {
-    color: #FF9600;
+    color: #ff9600;
 }
