@@ -19,8 +19,8 @@
             </i>
             <hr>
         </div>
-        {{$posts->links()}}
     @endforeach
+    {{$posts->links()}}
 </div>
 
 <style>

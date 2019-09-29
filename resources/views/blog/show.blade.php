@@ -15,7 +15,7 @@
     <h4 class="px-5">{{$post->secondary_title}}</h4>
     <hr>
     <i>Posted by 
-        @if ($post->author = 'Ali Akhtari')
+        @if ($post->author == 'Ali Akhtari')
             <a href="http://aliakhtari.me">{{$post->author}}</a>
         @else
             <a href="https://www.linkedin.com/in/kamran-hatami-608ab010b/">{{$post->author}}</a>
