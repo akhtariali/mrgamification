@@ -11,7 +11,7 @@
 </head>
 
 
-@section('title', 'Gamification Agency')
+@section('title', 'Let\'s Gamify the World')
 @section('main-content')
 <!-- BANNER AREA -->
 <section class="banner-area relative" id="home">
