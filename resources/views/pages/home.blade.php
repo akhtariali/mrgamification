@@ -226,105 +226,105 @@
 			<div class="col-lg-10 text-center">
 				<h2>Mr. Gamification Has Worked With</h2>
 			</div>
-			<div class="clients d-flex justify-content-center flex-wrap px-5">
-				<div class="col-4 col-md-2">
+			<div class="clients d-flex justify-content-stretch flex-wrap align-items-stretch px-5">
+				<div class="client-logo-container">
 					<img src="./images/logo/unilever.jpg"
 						class="client-logo img-responsive img-fluid">
 				</div>
-				<div class="col-4 col-md-2">
+				<div class="client-logo-container">
 				<img src="./images/logo/tarafdari.jpg"
 						class="client-logo img-responsive img-fluid">
 				</div>
-				<div class="col-4 col-md-2">
+				<div class="client-logo-container">
 				<img src="./images/logo/TehranMuni.jpg"
 						class="client-logo img-responsive img-fluid">
 				</div>
-				<div class="col-4 col-md-2">
+				<div class="client-logo-container">
 				<img src="./images/logo/IRIBTV2.jpg"
 						class="client-logo img-responsive img-fluid">
 				</div>
-				<div class="col-4 col-md-2">
+				<div class="client-logo-container">
 				<img src="./images/logo/mofid.jpg"
-						class="client-logo img-responsive img-fluid" style="width: 80%;">
+						class="client-logo img-responsive img-fluid">
 				</div>
-				<div class="col-4 col-md-2">
+				<div class="client-logo-container">
 					<img src="./images/logo/kalleh.jpg"
 						class="client-logo img-responsive img-fluid">
 				</div>
-				<div class="col-4 col-md-2">
+				<div class="client-logo-container">
 					<img src="./images/logo/ok.jpg"
 						class="client-logo img-responsive img-fluid">
 				</div>
-				<div class="col-4 col-md-2">
+				<div class="client-logo-container">
 					<img src="./images/logo/tosan.jpg"
 						class="client-logo img-responsive img-fluid">
 				</div>
-				<div class="col-4 col-md-2">
+				<div class="client-logo-container">
 					<img src="./images/logo/dokme.jpg"
 						class="client-logo img-responsive img-fluid">
 				</div>
-				<div class="col-4 col-md-2">
+				<div class="client-logo-container">
 					<img src="./images/logo/simsoot.jpg"
 						class="client-logo img-responsive img-fluid">
 				</div>
-				<div class="col-4 col-md-2">
+				<div class="client-logo-container">
 					<img src="./images/logo/miladtower.jpg"
 						class="client-logo img-responsive img-fluid">
 				</div>
-				<div class="col-4 col-md-2">
+				<div class="client-logo-container">
 					<img src="./images/logo/galleria.jpg"
 						class="client-logo img-responsive img-fluid">
 				</div>
 				<div class="col-lg-12 text-center" style='margin-top: 150px;'>
 					<h2>Mr. Gamification Has Spoken At</h2>
 				</div>
-				<div class="col-4 col-md-2">
+				<div class="client-logo-container">
 					<img src="./images/logo/amirkabir.jpg"
-						class="client-logo img-responsive img-fluid" style='width: 80%;'>
+						class="client-logo university-logo img-responsive img-fluid">
 				</div>
-				<div class="col-4 col-md-2">
+				<div class="client-logo-container">
 					<img src="./images/logo/tums.jpg"
-						class="client-logo img-responsive img-fluid" style="width: 80%;">
+						class="client-logo university-logo img-responsive img-fluid">
 				</div>
-				<div class="col-4 col-md-2">
+				<div class="client-logo-container">
 					<img src="./images/logo/imam.jpg"
-						class="client-logo img-responsive img-fluid">
+						class="client-logo university-logo img-responsive img-fluid">
 				</div>
-				<div class="col-4 col-md-2">
+				<div class="client-logo-container">
 					<img src="./images/logo/kharazmi.jpg"
-						class="client-logo img-responsive img-fluid" style="width: 80%;">
+						class="client-logo university-logo img-responsive img-fluid">
 				</div>
-				<div class="col-4 col-md-2">
+				<div class="client-logo-container">
 					<img src="./images/logo/tehranuni.jpg"
-						class="client-logo img-responsive img-fluid">
+						class="client-logo university-logo img-responsive img-fluid">
 				</div>
-				<div class="col-4 col-md-2">
+				<div class="client-logo-container">
 					<img src="./images/logo/alame.jpg"
-						class="client-logo img-responsive img-fluid">
+						class="client-logo university-logo img-responsive img-fluid">
 				</div>
-				<div class="col-4 col-md-2">
+				<div class="client-logo-container">
 					<img src="./images/logo/beheshti.jpg"
-						class="client-logo img-responsive img-fluid" style="width: 80%;">
+						class="client-logo university-logo img-responsive img-fluid">
 				</div>
-				<div class="col-4 col-md-2">
+				<div class="client-logo-container">
 					<img src="./images/logo/alzahra.jpg"
-						class="client-logo img-responsive img-fluid">
+						class="client-logo university-logo img-responsive img-fluid">
 				</div>
-				<div class="col-4 col-md-2">
+				<div class="client-logo-container">
 					<img src="./images/logo/axell.jpg"
-						class="client-logo img-responsive img-fluid" style="width: 80%;">
+						class="client-logo university-logo img-responsive img-fluid">
 				</div>
-				<div class="col-4 col-md-2">
+				<div class="client-logo-container">
 					<img src="./images/logo/forsatemrooz.jpg"
-						class="client-logo img-responsive img-fluid" style="width: 80%;">
+						class="client-logo university-logo img-responsive img-fluid">
 				</div>
-				<div class="col-4 col-md-2">
+				<div class="client-logo-container">
 					<img src="./images/logo/ferdosi.jpg"
-						class="client-logo img-responsive img-fluid" style="width: 95%;">
+						class="client-logo university-logo img-responsive img-fluid">
 				</div>
-				<div class="col-4 col-md-2">
+				<div class="client-logo-container">
 					<img src="./images/logo/skstp.jpg"
-						class="client-logo img-responsive img-fluid" style="width: 85%;">
+						class="client-logo university-logo img-responsive img-fluid">
 				</div>
 
 			</div>
