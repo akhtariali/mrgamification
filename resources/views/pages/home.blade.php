@@ -230,124 +230,102 @@
 			</div>
 			<div class="clients d-flex justify-content-center flex-wrap px-5">
 				<div class="col-4 col-md-2">
-					<img src="http://storage.ictstartups.ir/images/1aec8745-7c72-45a8-9c46-6fec4230c8ff.jpg"
+					<img src="./images/logo/unilever.jpg"
+						class="client-logo img-responsive img-fluid">
+				</div>
+				<div class="col-4 col-md-2">
+				<img src="./images/logo/tarafdari.jpg"
+						class="client-logo img-responsive img-fluid">
+				</div>
+				<div class="col-4 col-md-2">
+				<img src="./images/logo/TehranMuni.jpg"
+						class="client-logo img-responsive img-fluid">
+				</div>
+				<div class="col-4 col-md-2">
+				<img src="./images/logo/IRIBTV2.jpg"
+						class="client-logo img-responsive img-fluid">
+				</div>
+				<div class="col-4 col-md-2">
+				<img src="./images/logo/mofid.jpg"
 						class="client-logo img-responsive img-fluid" style="width: 80%;">
 				</div>
 				<div class="col-4 col-md-2">
-					<img src="https://upload.wikimedia.org/wikipedia/en/thumb/e/e4/Unilever.svg/1200px-Unilever.svg.png"
+					<img src="./images/logo/kalleh.jpg"
 						class="client-logo img-responsive img-fluid">
 				</div>
 				<div class="col-4 col-md-2">
-					<img src="http://miladtower.tehran.ir/Portals/0/Images/Borj-Milad-Tehran-Logo.png"
+					<img src="./images/logo/ok.jpg"
 						class="client-logo img-responsive img-fluid">
 				</div>
 				<div class="col-4 col-md-2">
-					<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/IRIB_TV2_logo.svg/1200px-IRIB_TV2_logo.svg.png"
+					<img src="./images/logo/tosan.jpg"
 						class="client-logo img-responsive img-fluid">
 				</div>
 				<div class="col-4 col-md-2">
-					<img src="https://upload.wikimedia.org/wikipedia/en/d/db/Mofid_Securities_Logo.png"
-						class="client-logo img-responsive img-fluid" style="width: 80%;">
-				</div>
-				<div class="col-4 col-md-2">
-					<img src="http://matris.ir/en/wp-content/uploads/2016/01/401-1024x722.png"
+					<img src="./images/logo/dokme.jpg"
 						class="client-logo img-responsive img-fluid">
 				</div>
 				<div class="col-4 col-md-2">
-					<img src="https://akhbarrasmi.com/Content/files/f43dfb654aed49228bdd897794e15a17/73e951cd364d41498a9a18f2ca546537.jpeg"
-						class="client-logo img-responsive img-fluid" style="width: 80%;">
-				</div>
-				<div class="col-4 col-md-2">
-					<img src="http://s.cafebazaar.ir/1/upload/icons/ir.hamkelasi.app.png"
+					<img src="./images/logo/simsoot.jpg"
 						class="client-logo img-responsive img-fluid">
 				</div>
 				<div class="col-4 col-md-2">
-					<img src="https://www.tarafdari.com/sites/all/modules/firebase/images/logo.png"
+					<img src="./images/logo/miladtower.jpg"
 						class="client-logo img-responsive img-fluid">
 				</div>
 				<div class="col-4 col-md-2">
-					<img src="https://way2pay.ir/wp-content/uploads/Dokme-Logo-JPG-Way2pay-96-12-03.jpg"
+					<img src="./images/logo/galleria.jpg"
 						class="client-logo img-responsive img-fluid">
-				</div>
-				<div class="col-4 col-md-2">
-					<img src="https://s.cafebazaar.ir/1/icons/com.projects.bahartel.simsoot_512x512.png"
-						class="client-logo img-responsive img-fluid">
-				</div>
-				<div class="col-4 col-md-2">
-					<img src="https://appreview.ir/uploads/ir.barmanrayan.tikkaa.png"
-						class="client-logo img-responsive img-fluid">
-				</div>
-				<div class="col-4 col-md-2">
-					<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/%D9%84%D9%88%DA%AF%D9%88_%D8%B4%D9%87%D8%B1%D8%AF%D8%A7%D8%B1%DB%8C_%D8%AA%D9%87%D8%B1%D8%A7%D9%86.svg/600px-%D9%84%D9%88%DA%AF%D9%88_%D8%B4%D9%87%D8%B1%D8%AF%D8%A7%D8%B1%DB%8C_%D8%AA%D9%87%D8%B1%D8%A7%D9%86.svg.png"
-						class="client-logo img-responsive img-fluid">
-				</div>
-				<div class="col-4 col-md-2">
-					<img src="http://files.namnak.com/users/fn/aup/201812/353_pics/%D9%87%D9%85%D8%B1%D8%A7%D9%87-%D8%A8%D8%A7%D9%86%DA%A9-%D9%85%D9%84%D8%AA.jpg"
-						class="client-logo img-responsive img-fluid">
-				</div>
-				<div class="col-4 col-md-2">
-					<img src="https://storage.irantalent.com/employer-logo/employer_logo_8135_200117.jpeg"
-						class="client-logo img-responsive img-fluid">
-				</div>
-				<div class="col-4 col-md-2">
-					<img src="https://www.specchioeconomico.com/images/Cooperacy_logo_Specchio_Economico.jpeg"
-						class="client-logo img-responsive img-fluid">
-				</div>
-				<div class="col-4 col-md-2">
-					<img src="./images/Northern13.png" class="client-logo img-responsive img-fluid">
-				</div>
-				<div class="col-4 col-md-2">
-					<img src="http://webs.ce.sharif.edu/~eetesami/wp-content/uploads/cropped-sharif-logo.png" class="client-logo img-responsive img-fluid">
 				</div>
 				<div class="col-lg-12 text-center" style='margin-top: 150px;'>
-					<h2>Mr. Gamification Has Speaked At</h2>
+					<h2>Mr. Gamification Has Spoken At</h2>
 				</div>
 				<div class="col-4 col-md-2">
-					<img src="https://www.irangi.org/uploads/images/4_1560089256_1291127534.png"
+					<img src="./images/logo/amirkabir.jpg"
 						class="client-logo img-responsive img-fluid" style='width: 80%;'>
 				</div>
 				<div class="col-4 col-md-2">
-					<img src="https://www.iau-hesd.net/sites/default/files/styles/univ_205/public/universites/tums_signature_variation_1_blue.png?itok=lkP9rmMC"
+					<img src="./images/logo/tums.jpg"
 						class="client-logo img-responsive img-fluid" style="width: 80%;">
 				</div>
 				<div class="col-4 col-md-2">
-					<img src="https://upload.wikimedia.org/wikipedia/en/thumb/2/2a/Imam_Sadiq_University.svg/1200px-Imam_Sadiq_University.svg.png"
+					<img src="./images/logo/imam.jpg"
 						class="client-logo img-responsive img-fluid">
 				</div>
 				<div class="col-4 col-md-2">
-					<img src="http://pgc2019.shahroodut.ac.ir/files_site/sponsorfn_pic/r_29_180615142152.png"
+					<img src="./images/logo/kharazmi.jpg"
+						class="client-logo img-responsive img-fluid" style="width: 80%;">
+				</div>
+				<div class="col-4 col-md-2">
+					<img src="./images/logo/tehranuni.jpg"
 						class="client-logo img-responsive img-fluid">
 				</div>
 				<div class="col-4 col-md-2">
-					<img src="https://ut.ac.ir/images/www/en/website/site-logo/2018/1518613180-ut-en.png"
-						class="client-logo img-responsive img-fluid" style="width: 80%;">
-				</div>
-				<div class="col-4 col-md-2">
-					<img src="https://mgou.ru/wp-content/uploads/2018/03/1.jpg-347x350.png"
+					<img src="./images/logo/alame.jpg"
 						class="client-logo img-responsive img-fluid">
 				</div>
 				<div class="col-4 col-md-2">
-					<img src="https://www.tt.th-koeln.de/cnrd-network/files/2017/12/uni.png"
+					<img src="./images/logo/beheshti.jpg"
 						class="client-logo img-responsive img-fluid" style="width: 80%;">
 				</div>
 				<div class="col-4 col-md-2">
-					<img src="https://i1.rgstatic.net/ii/institution.image/AS%3A267466503065610%401440780391994_l"
+					<img src="./images/logo/alzahra.jpg"
 						class="client-logo img-responsive img-fluid">
 				</div>
 				<div class="col-4 col-md-2">
-					<img src="http://nopahub.com/storage/cache/Fit_200_auto/ecosystem/axell1.png"
+					<img src="./images/logo/axell.jpg"
 						class="client-logo img-responsive img-fluid" style="width: 80%;">
 				</div>
 				<div class="col-4 col-md-2">
-					<img src="https://photos.prnewswire.com/prnfull/20160428/361090LOGO"
+					<img src="./images/logo/forsatemrooz.jpg"
 						class="client-logo img-responsive img-fluid" style="width: 80%;">
 				</div>
 				<div class="col-4 col-md-2">
-					<img src="http://en.um.ac.ir/content/themes/EngNewTheme/images/footer-logo.png"
+					<img src="./images/logo/ferdosi.jpg"
 						class="client-logo img-responsive img-fluid" style="width: 95%;">
 				</div>
 				<div class="col-4 col-md-2">
-					<img src="http://skstp.ir/files/centers/cn25/skstp_enlogo129.png"
+					<img src="./images/logo/skstp.jpg"
 						class="client-logo img-responsive img-fluid" style="width: 85%;">
 				</div>
 
@@ -368,7 +346,7 @@
 		<div class="row d-flex justify-content-center">
 			<div class="col-md-3 col-sm-6 d-flex justify-content-center text-center flex-wrap">
 				<figure class="snip1104 orange">
-					<img src="https://s.cafebazaar.ir/1/upload/screenshot/com.tarafdari.news-821716119619.jpg"
+					<img src="./images/project/tarafdari.jpg"
 						alt="sample33" />
 					<figcaption class="d-flex justify-content-center align-items-center">
 						<h2>Tarafdari App</h2>
@@ -378,11 +356,11 @@
 				<div class="col-lg-12"></div>
 				<p class="client">Client </p>
 				<div class="col-lg-12"></div>
-				<a class="client-name" href='https://www.tarafdari.com/'>Tarafdari Website</a>
+				<a class="client-name" href='https://www.tarafdari.com/'>Tarafdari</a>
 			</div>
 			<div class="col-md-5 col-sm-6 d-flex justify-content-center text-center flex-wrap mt-5 mt-sm-0">
 				<figure class="snip1104 red"><img
-						src="http://serviceiran.ca/wp-content/uploads/2018/01/Tehran-Wallpaper-HD-1024x788.jpg"
+						src="./images/project/tehran.jpg"
 						alt="sample34" />
 					<figcaption class="d-flex justify-content-center align-items-center">
 						<h2 style="width: 70%;">The Ultimate Forerunner</h2>
@@ -396,7 +374,7 @@
 			</div>
 			<div class="col-md-3 col-sm-6 d-flex justify-content-center text-center flex-wrap mt-5 mt-md-0">
 				<figure class="snip1104 orange"><img
-						src="https://images.unsplash.com/photo-1534723328310-e82dad3ee43f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=976&q=80"
+						src="./images/project/robokids.jpg"
 						alt="sample35" />
 					<figcaption class="d-flex justify-content-center align-items-center">
 						<h2>Robokids</h2>
@@ -410,7 +388,7 @@
 			</div>
 			<div class="col-md-3 col-sm-6 d-flex justify-content-center text-center flex-wrap mt-5">
 				<figure class="snip1104 orange"><img
-						src="https://images.unsplash.com/photo-1444653614773-995cb1ef9efa?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1955&q=80"
+						src="./images/project/kharazmi.jpg"
 						alt="sample35" />
 					<figcaption class="d-flex justify-content-center align-items-center">
 						<h2>Kharazmi Interactive Course</h2>
@@ -425,7 +403,7 @@
 			</div>
 			<div class="col-md-5 col-sm-6 d-flex justify-content-center text-center flex-wrap mt-5">
 				<figure class="snip1104 red"><img
-						src="https://images.unsplash.com/photo-1528750997573-59b89d56f4f7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1466&q=80"
+						src="./images/project/kaleh.jpg"
 						alt="sample34" />
 					<figcaption class="d-flex justify-content-center align-items-center">
 						<h2 style="width: 70%;">Pemina Campaign</h2>
@@ -439,7 +417,7 @@
 			</div>
 			<div class="col-md-3 col-sm-6 d-flex justify-content-center text-center flex-wrap mt-5">
 				<figure class="snip1104 orange"><img
-						src="https://images.unsplash.com/photo-1524117074681-31bd4de22ad3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1100&q=80"
+						src="./images/project/lovemoji.jpg"
 						alt="sample35" />
 					<figcaption class="d-flex justify-content-center align-items-center">
 						<h2>Lovemoji</h2>
