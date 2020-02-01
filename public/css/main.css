@@ -2992,7 +2992,7 @@ h6 {
     width: 20%;
     margin: 0 2%;
     padding: 2rem .5rem;
-    box-shadow: inset 1px 0px 10px -1px #ff950060, 2px 0px 33px -6px #ff950060;
+    box-shadow: 5px 0px 35px -9px #ff950060;
     -webkit-filter: grayscale(90%);
     filter: grayscale(90%);
     transition: .5s;
